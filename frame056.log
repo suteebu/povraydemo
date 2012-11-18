@@ -38,7 +38,7 @@ Support libraries used by POV-Ray:
   Boost 1.46, http://www.boost.org/
 
 Parser Options
-  Input file: frame034.pov
+  Input file: frame056.pov
   Remove bounds........On 
   Split unions.........Off
   Library paths:
@@ -48,7 +48,7 @@ Parser Options
   Clock value:    0.000  (Animation off)
 Image Output Options
   Image resolution.....500 by 500 (rows 1 to 500, columns 1 to 500).
-  Output file..........frame034.png, 24 bpp PNG
+  Output file..........frame056.png, 24 bpp PNG
   Dithering............Off
   Graphic display......Off
   Mosaic preview.......Off
@@ -73,7 +73,7 @@ computing 1000x500 height field...
 1% completed
 2% completed
 2% completed
-Parsing 4269K tokens
+Parsing 4316K tokens
 2% completed
 2% completed
 2% completed
@@ -84,7 +84,7 @@ Parsing 4269K tokens
 3% completed
 4% completed
 4% completed
-Parsing 8560K tokens
+Parsing 8643K tokens
 4% completed
 4% completed
 4% completed
@@ -95,7 +95,7 @@ Parsing 8560K tokens
 5% completed
 6% completed
 6% completed
-Parsing 12865K tokens
+Parsing 12992K tokens
 6% completed
 6% completed
 6% completed
@@ -106,7 +106,7 @@ Parsing 12865K tokens
 7% completed
 8% completed
 8% completed
-Parsing 17179K tokens
+Parsing 17361K tokens
 8% completed
 8% completed
 8% completed
@@ -117,7 +117,7 @@ Parsing 17179K tokens
 9% completed
 10% completed
 10% completed
-Parsing 21493K tokens
+Parsing 21693K tokens
 10% completed
 10% completed
 10% completed
@@ -127,19 +127,19 @@ Parsing 21493K tokens
 11% completed
 11% completed
 12% completed
-Parsing 25815K tokens
+12% completed
+Parsing 26052K tokens
 12% completed
 12% completed
 12% completed
-12% completed
 13% completed
 13% completed
 13% completed
 13% completed
 13% completed
 14% completed
-Parsing 30129K tokens
 14% completed
+Parsing 30399K tokens
 14% completed
 14% completed
 14% completed
@@ -149,7 +149,7 @@ Parsing 30129K tokens
 15% completed
 15% completed
 16% completed
-Parsing 34443K tokens
+Parsing 34753K tokens
 16% completed
 16% completed
 16% completed
@@ -159,8 +159,8 @@ Parsing 34443K tokens
 17% completed
 17% completed
 17% completed
-Parsing 38770K tokens
 18% completed
+Parsing 39125K tokens
 18% completed
 18% completed
 18% completed
@@ -169,8 +169,8 @@ Parsing 38770K tokens
 19% completed
 19% completed
 19% completed
-Parsing 43099K tokens
 19% completed
+Parsing 43477K tokens
 20% completed
 20% completed
 20% completed
@@ -179,8 +179,8 @@ Parsing 43099K tokens
 21% completed
 21% completed
 21% completed
-Parsing 47441K tokens
 21% completed
+Parsing 47849K tokens
 21% completed
 22% completed
 22% completed
@@ -189,17 +189,17 @@ Parsing 47441K tokens
 22% completed
 23% completed
 23% completed
-Parsing 51748K tokens
+23% completed
+Parsing 52223K tokens
 23% completed
 23% completed
-23% completed
 24% completed
 24% completed
 24% completed
 24% completed
 24% completed
-Parsing 56112K tokens
 25% completed
+Parsing 56617K tokens
 25% completed
 25% completed
 25% completed
@@ -207,8 +207,8 @@ Parsing 56112K tokens
 26% completed
 26% completed
 26% completed
-Parsing 60474K tokens
 26% completed
+Parsing 61011K tokens
 26% completed
 27% completed
 27% completed
@@ -216,17 +216,17 @@ Parsing 60474K tokens
 27% completed
 27% completed
 28% completed
-Parsing 64838K tokens
+28% completed
+Parsing 65411K tokens
 28% completed
 28% completed
 28% completed
-28% completed
 29% completed
 29% completed
 29% completed
 29% completed
-Parsing 69202K tokens
 29% completed
+Parsing 69800K tokens
 30% completed
 30% completed
 30% completed
@@ -234,343 +234,343 @@ Parsing 69202K tokens
 30% completed
 31% completed
 31% completed
-Parsing 73576K tokens
+31% completed
+Parsing 74197K tokens
 31% completed
 31% completed
-31% completed
 32% completed
 32% completed
 32% completed
 32% completed
-Parsing 77943K tokens
 32% completed
+Parsing 78598K tokens
 33% completed
 33% completed
 33% completed
 33% completed
 33% completed
 34% completed
-Parsing 82345K tokens
+34% completed
+Parsing 83013K tokens
 34% completed
 34% completed
 34% completed
-34% completed
 35% completed
 35% completed
-Parsing 86757K tokens
 35% completed
+Parsing 87434K tokens
 35% completed
 35% completed
 36% completed
 36% completed
-Parsing 91196K tokens
+36% completed
+Parsing 91874K tokens
 36% completed
 36% completed
-36% completed
 37% completed
 37% completed
-Parsing 95635K tokens
 37% completed
+Parsing 96326K tokens
 37% completed
 37% completed
 38% completed
 38% completed
-Parsing 100087K tokens
+38% completed
+Parsing 100762K tokens
 38% completed
 38% completed
-38% completed
-39% completed
-39% completed
-Parsing 104541K tokens
 39% completed
 39% completed
 39% completed
+Parsing 105232K tokens
+39% completed
+39% completed
 40% completed
-Parsing 109013K tokens
+40% completed
+Parsing 109696K tokens
 40% completed
 40% completed
 40% completed
-40% completed
-Parsing 113495K tokens
+41% completed
+Parsing 114183K tokens
 41% completed
 41% completed
 41% completed
+Parsing 118687K tokens
 41% completed
-Parsing 117972K tokens
-41% completed
-42% completed
-42% completed
-Parsing 122243K tokens
 42% completed
 42% completed
 42% completed
+Parsing 123166K tokens
+42% completed
+42% completed
 43% completed
-Parsing 126635K tokens
+Parsing 127653K tokens
 43% completed
 43% completed
 43% completed
-Parsing 131114K tokens
 43% completed
+Parsing 132152K tokens
 44% completed
 44% completed
 44% completed
-Parsing 135584K tokens
 44% completed
+Parsing 136627K tokens
 44% completed
 45% completed
-Parsing 140078K tokens
+45% completed
+Parsing 141136K tokens
 45% completed
 45% completed
 45% completed
-45% completed
-Parsing 144567K tokens
+46% completed
+Parsing 145615K tokens
 46% completed
 46% completed
 46% completed
-Parsing 149057K tokens
+Parsing 150150K tokens
 46% completed
-46% completed
-47% completed
-47% completed
-Parsing 153543K tokens
 47% completed
 47% completed
 47% completed
-Parsing 158035K tokens
+Parsing 154646K tokens
+47% completed
+47% completed
+48% completed
+Parsing 159096K tokens
 48% completed
 48% completed
 48% completed
 48% completed
-Parsing 162512K tokens
-48% completed
-49% completed
-49% completed
-Parsing 166984K tokens
+Parsing 163555K tokens
 49% completed
 49% completed
 49% completed
+Parsing 168059K tokens
+49% completed
+49% completed
 50% completed
-Parsing 171461K tokens
+Parsing 172553K tokens
 50% completed
 50% completed
 50% completed
-Parsing 175950K tokens
 50% completed
+Parsing 177050K tokens
 51% completed
 51% completed
-Parsing 180437K tokens
 51% completed
+Parsing 181540K tokens
 51% completed
 51% completed
 52% completed
-Parsing 184926K tokens
+52% completed
+Parsing 186026K tokens
 52% completed
 52% completed
 52% completed
-Parsing 189368K tokens
-52% completed
+Parsing 190528K tokens
 53% completed
 53% completed
 53% completed
-Parsing 193842K tokens
+Parsing 195000K tokens
 53% completed
 53% completed
 54% completed
-Parsing 198329K tokens
+54% completed
+Parsing 199462K tokens
 54% completed
 54% completed
 54% completed
-54% completed
-Parsing 202806K tokens
+55% completed
+Parsing 203954K tokens
 55% completed
 55% completed
 55% completed
-Parsing 207297K tokens
+Parsing 208463K tokens
 55% completed
-55% completed
-56% completed
-56% completed
-Parsing 211764K tokens
 56% completed
 56% completed
 56% completed
-Parsing 216258K tokens
+Parsing 212952K tokens
+56% completed
+56% completed
+57% completed
+Parsing 217469K tokens
 57% completed
 57% completed
 57% completed
 57% completed
-Parsing 220743K tokens
-57% completed
-58% completed
-58% completed
-Parsing 225235K tokens
+Parsing 221956K tokens
 58% completed
 58% completed
 58% completed
+Parsing 226445K tokens
+58% completed
+58% completed
 59% completed
-Parsing 229714K tokens
+59% completed
+Parsing 230804K tokens
 59% completed
 59% completed
 59% completed
-59% completed
-Parsing 234196K tokens
+60% completed
+Parsing 235261K tokens
 60% completed
 60% completed
 60% completed
 60% completed
-Parsing 238670K tokens
-60% completed
+Parsing 239730K tokens
 61% completed
 61% completed
 61% completed
-Parsing 243144K tokens
 61% completed
+Parsing 244225K tokens
 61% completed
 62% completed
 62% completed
 62% completed
-Parsing 247596K tokens
 62% completed
+Parsing 248691K tokens
 62% completed
 63% completed
 63% completed
 63% completed
-Parsing 252043K tokens
 63% completed
+Parsing 253168K tokens
 63% completed
 64% completed
 64% completed
 64% completed
-Parsing 256470K tokens
 64% completed
+Parsing 257623K tokens
 64% completed
 65% completed
 65% completed
 65% completed
 65% completed
-Parsing 260844K tokens
 65% completed
+Parsing 262062K tokens
 66% completed
 66% completed
 66% completed
 66% completed
 66% completed
-Parsing 265253K tokens
 67% completed
 67% completed
+Parsing 266474K tokens
 67% completed
 67% completed
 67% completed
 68% completed
 68% completed
-Parsing 269647K tokens
 68% completed
 68% completed
+Parsing 270895K tokens
 68% completed
 69% completed
 69% completed
 69% completed
 69% completed
-Parsing 274024K tokens
 69% completed
 70% completed
+Parsing 275300K tokens
 70% completed
 70% completed
 70% completed
 70% completed
 71% completed
 71% completed
-Parsing 278383K tokens
 71% completed
 71% completed
+Parsing 279694K tokens
 71% completed
 72% completed
 72% completed
 72% completed
 72% completed
 72% completed
-Parsing 282733K tokens
 73% completed
 73% completed
+Parsing 284068K tokens
 73% completed
 73% completed
 73% completed
 74% completed
 74% completed
 74% completed
-Parsing 287084K tokens
 74% completed
 74% completed
+Parsing 288452K tokens
 75% completed
 75% completed
 75% completed
 75% completed
 75% completed
 76% completed
-Parsing 291449K tokens
 76% completed
 76% completed
+Parsing 292809K tokens
 76% completed
 76% completed
 77% completed
 77% completed
 77% completed
 77% completed
-Parsing 295813K tokens
 77% completed
 78% completed
 78% completed
+Parsing 297191K tokens
 78% completed
 78% completed
 78% completed
 79% completed
 79% completed
 79% completed
-Parsing 300157K tokens
 79% completed
 79% completed
 80% completed
+Parsing 301560K tokens
 80% completed
 80% completed
 80% completed
 80% completed
 81% completed
 81% completed
-Parsing 304499K tokens
 81% completed
 81% completed
 81% completed
+Parsing 305927K tokens
 82% completed
 82% completed
 82% completed
 82% completed
 82% completed
 83% completed
-Parsing 308830K tokens
 83% completed
 83% completed
 83% completed
+Parsing 310294K tokens
 83% completed
 84% completed
 84% completed
 84% completed
 84% completed
 84% completed
-Parsing 313157K tokens
 85% completed
 85% completed
 85% completed
 85% completed
+Parsing 314643K tokens
 85% completed
 86% completed
 86% completed
 86% completed
 86% completed
 86% completed
-Parsing 317489K tokens
 87% completed
 87% completed
 87% completed
+Parsing 318992K tokens
 87% completed
 87% completed
 88% completed
@@ -578,10 +578,10 @@ Parsing 317489K tokens
 88% completed
 88% completed
 88% completed
-Parsing 321811K tokens
 89% completed
 89% completed
 89% completed
+Parsing 323341K tokens
 89% completed
 89% completed
 90% completed
@@ -589,43 +589,43 @@ Parsing 321811K tokens
 90% completed
 90% completed
 90% completed
-Parsing 326130K tokens
 91% completed
 91% completed
 91% completed
+Parsing 327691K tokens
 91% completed
 91% completed
 92% completed
 92% completed
 92% completed
 92% completed
-Parsing 330452K tokens
 92% completed
 93% completed
 93% completed
 93% completed
+Parsing 332030K tokens
 93% completed
 93% completed
 94% completed
 94% completed
 94% completed
 94% completed
-Parsing 334766K tokens
 94% completed
 95% completed
 95% completed
 95% completed
+Parsing 336346K tokens
 95% completed
 95% completed
 96% completed
 96% completed
 96% completed
 96% completed
-Parsing 339080K tokens
 96% completed
 97% completed
 97% completed
 97% completed
+Parsing 340703K tokens
 97% completed
 97% completed
 98% completed
@@ -633,11 +633,11 @@ Parsing 339080K tokens
 98% completed
 98% completed
 98% completed
-Parsing 343379K tokens
 99% completed
 99% completed
 99% completed
 99% completed
+Parsing 345055K tokens
 99% completed
 100% completed
 100% completed
@@ -688,7 +688,6 @@ setting up grid vertices...
 9% completed
 9% completed
 9% completed
-Parsing 347786K tokens
 9% completed
 9% completed
 10% completed
@@ -743,6 +742,7 @@ Parsing 347786K tokens
 19% completed
 20% completed
 20% completed
+Parsing 349629K tokens
 20% completed
 20% completed
 20% completed
@@ -824,7 +824,6 @@ Parsing 347786K tokens
 36% completed
 36% completed
 36% completed
-Parsing 352375K tokens
 36% completed
 36% completed
 37% completed
@@ -882,6 +881,7 @@ Parsing 352375K tokens
 47% completed
 47% completed
 47% completed
+Parsing 354306K tokens
 48% completed
 48% completed
 48% completed
@@ -960,7 +960,6 @@ Parsing 352375K tokens
 63% completed
 63% completed
 63% completed
-Parsing 356957K tokens
 63% completed
 63% completed
 64% completed
@@ -1020,6 +1019,7 @@ Parsing 356957K tokens
 74% completed
 75% completed
 75% completed
+Parsing 358986K tokens
 75% completed
 75% completed
 75% completed
@@ -1095,7 +1095,6 @@ Parsing 356957K tokens
 89% completed
 90% completed
 90% completed
-Parsing 361539K tokens
 90% completed
 90% completed
 90% completed
@@ -1152,6 +1151,7 @@ setting up surface normals...
 
 1% completed
 1% completed
+Parsing 363627K tokens
 1% completed
 1% completed
 1% completed
@@ -1175,7 +1175,6 @@ setting up surface normals...
 5% completed
 5% completed
 5% completed
-Parsing 366003K tokens
 6% completed
 6% completed
 6% completed
@@ -1195,6 +1194,7 @@ Parsing 366003K tokens
 9% completed
 9% completed
 9% completed
+Parsing 368034K tokens
 9% completed
 10% completed
 10% completed
@@ -1217,7 +1217,6 @@ Parsing 366003K tokens
 13% completed
 13% completed
 14% completed
-Parsing 370413K tokens
 14% completed
 14% completed
 14% completed
@@ -1237,6 +1236,7 @@ Parsing 370413K tokens
 17% completed
 17% completed
 17% completed
+Parsing 372441K tokens
 18% completed
 18% completed
 18% completed
@@ -1259,7 +1259,6 @@ Parsing 370413K tokens
 21% completed
 22% completed
 22% completed
-Parsing 374827K tokens
 22% completed
 22% completed
 22% completed
@@ -1279,6 +1278,7 @@ Parsing 374827K tokens
 25% completed
 25% completed
 26% completed
+Parsing 376853K tokens
 26% completed
 26% completed
 26% completed
@@ -1301,7 +1301,6 @@ Parsing 374827K tokens
 30% completed
 30% completed
 30% completed
-Parsing 379241K tokens
 30% completed
 30% completed
 31% completed
@@ -1321,6 +1320,7 @@ Parsing 379241K tokens
 33% completed
 34% completed
 34% completed
+Parsing 381244K tokens
 34% completed
 34% completed
 34% completed
@@ -1344,7 +1344,6 @@ Parsing 379241K tokens
 38% completed
 38% completed
 38% completed
-Parsing 383663K tokens
 39% completed
 39% completed
 39% completed
@@ -1363,6 +1362,7 @@ Parsing 383663K tokens
 42% completed
 42% completed
 42% completed
+Parsing 385646K tokens
 42% completed
 42% completed
 43% completed
@@ -1386,7 +1386,6 @@ Parsing 383663K tokens
 46% completed
 46% completed
 47% completed
-Parsing 388057K tokens
 47% completed
 47% completed
 47% completed
@@ -1405,6 +1404,7 @@ Parsing 388057K tokens
 50% completed
 50% completed
 50% completed
+Parsing 390043K tokens
 50% completed
 51% completed
 51% completed
@@ -1426,7 +1426,6 @@ Parsing 388057K tokens
 54% completed
 54% completed
 54% completed
-Parsing 392266K tokens
 55% completed
 55% completed
 55% completed
@@ -1448,6 +1447,7 @@ Parsing 392266K tokens
 58% completed
 58% completed
 59% completed
+Parsing 394447K tokens
 59% completed
 59% completed
 59% completed
@@ -1468,7 +1468,6 @@ Parsing 392266K tokens
 62% completed
 62% completed
 63% completed
-Parsing 396681K tokens
 63% completed
 63% completed
 63% completed
@@ -1490,6 +1489,7 @@ Parsing 396681K tokens
 66% completed
 67% completed
 67% completed
+Parsing 398851K tokens
 67% completed
 67% completed
 67% completed
@@ -1511,7 +1511,6 @@ Parsing 396681K tokens
 71% completed
 71% completed
 71% completed
-Parsing 401092K tokens
 71% completed
 71% completed
 72% completed
@@ -1532,6 +1531,7 @@ Parsing 401092K tokens
 75% completed
 75% completed
 75% completed
+Parsing 403251K tokens
 75% completed
 75% completed
 76% completed
@@ -1553,7 +1553,6 @@ Parsing 401092K tokens
 79% completed
 79% completed
 79% completed
-Parsing 405494K tokens
 79% completed
 80% completed
 80% completed
@@ -1574,6 +1573,7 @@ Parsing 405494K tokens
 83% completed
 83% completed
 83% completed
+Parsing 407642K tokens
 83% completed
 84% completed
 84% completed
@@ -1595,7 +1595,6 @@ Parsing 405494K tokens
 87% completed
 87% completed
 87% completed
-Parsing 409893K tokens
 88% completed
 88% completed
 88% completed
@@ -1616,6 +1615,7 @@ Parsing 409893K tokens
 91% completed
 91% completed
 91% completed
+Parsing 412059K tokens
 92% completed
 92% completed
 92% completed
@@ -1637,7 +1637,6 @@ Parsing 409893K tokens
 95% completed
 95% completed
 96% completed
-Parsing 414308K tokens
 96% completed
 96% completed
 96% completed
@@ -1658,6 +1657,7 @@ Parsing 414308K tokens
 99% completed
 99% completed
 100% completed
+Parsing 416466K tokens
 100% completed
 100% completed
 building triangle mesh...
@@ -1696,7 +1696,6 @@ building triangle mesh...
 7% completed
 7% completed
 7% completed
-Parsing 418967K tokens
 7% completed
 8% completed
 8% completed
@@ -1732,6 +1731,7 @@ Parsing 418967K tokens
 14% completed
 14% completed
 14% completed
+Parsing 421498K tokens
 14% completed
 15% completed
 15% completed
@@ -1765,7 +1765,6 @@ Parsing 418967K tokens
 20% completed
 21% completed
 21% completed
-Parsing 423859K tokens
 21% completed
 21% completed
 21% completed
@@ -1804,6 +1803,7 @@ Parsing 423859K tokens
 28% completed
 28% completed
 28% completed
+Parsing 426535K tokens
 29% completed
 29% completed
 29% completed
@@ -1834,7 +1834,6 @@ Parsing 423859K tokens
 34% completed
 34% completed
 34% completed
-Parsing 428753K tokens
 35% completed
 35% completed
 35% completed
@@ -1875,6 +1874,7 @@ Parsing 428753K tokens
 42% completed
 42% completed
 42% completed
+Parsing 431575K tokens
 43% completed
 43% completed
 43% completed
@@ -1904,7 +1904,6 @@ Parsing 428753K tokens
 48% completed
 48% completed
 48% completed
-Parsing 433660K tokens
 48% completed
 49% completed
 49% completed
@@ -1946,6 +1945,7 @@ Parsing 433660K tokens
 56% completed
 56% completed
 56% completed
+Parsing 436607K tokens
 57% completed
 57% completed
 57% completed
@@ -1973,7 +1973,6 @@ Parsing 433660K tokens
 61% completed
 62% completed
 62% completed
-Parsing 438572K tokens
 62% completed
 62% completed
 62% completed
@@ -2017,6 +2016,7 @@ Parsing 438572K tokens
 70% completed
 70% completed
 70% completed
+Parsing 441646K tokens
 71% completed
 71% completed
 71% completed
@@ -2042,7 +2042,6 @@ Parsing 438572K tokens
 75% completed
 75% completed
 75% completed
-Parsing 443479K tokens
 76% completed
 76% completed
 76% completed
@@ -2088,6 +2087,7 @@ Parsing 443479K tokens
 84% completed
 84% completed
 84% completed
+Parsing 446681K tokens
 85% completed
 85% completed
 85% completed
@@ -2111,7 +2111,6 @@ Parsing 443479K tokens
 89% completed
 89% completed
 89% completed
-Parsing 448384K tokens
 89% completed
 89% completed
 90% completed
@@ -2159,6 +2158,7 @@ Parsing 448384K tokens
 98% completed
 98% completed
 98% completed
+Parsing 451718K tokens
 99% completed
 99% completed
 99% completed
@@ -2188,8 +2188,8 @@ Light Sources:             3
 Total:                     7
 ----------------------------------------------------------------------------
 Parser Time
-  Parse Time:       0 hours  1 minutes 48 seconds (108.196 seconds)
-              using 1 thread(s) with 108.194 CPU-seconds total
+  Parse Time:       0 hours  1 minutes 47 seconds (107.386 seconds)
+              using 1 thread(s) with 107.384 CPU-seconds total
   Bounding Time:    0 hours  0 minutes  0 seconds (0.000 seconds)
               using 1 thread(s) with 0.000 CPU-seconds total
 ----------------------------------------------------------------------------
@@ -2198,29 +2198,29 @@ Render Options
   Bounding boxes.......On   Bounding threshold: 3
   Antialiasing.........Off
 ==== [Rendering...] ========================================================
-Rendered 1024 of 250000 pixels (0%)Rendered 2048 of 250000 pixels (0%)Rendered 3072 of 250000 pixels (1%)Rendered 4096 of 250000 pixels (1%)Rendered 5120 of 250000 pixels (2%)Rendered 6144 of 250000 pixels (2%)Rendered 7168 of 250000 pixels (2%)Rendered 8192 of 250000 pixels (3%)Rendered 9216 of 250000 pixels (3%)Rendered 10240 of 250000 pixels (4%)Rendered 11264 of 250000 pixels (4%)Rendered 12288 of 250000 pixels (4%)Rendered 13312 of 250000 pixels (5%)Rendered 14336 of 250000 pixels (5%)Rendered 14976 of 250000 pixels (5%)Rendered 16000 of 250000 pixels (6%)Rendered 17024 of 250000 pixels (6%)Rendered 18048 of 250000 pixels (7%)Rendered 19072 of 250000 pixels (7%)Rendered 20096 of 250000 pixels (8%)Rendered 21120 of 250000 pixels (8%)Rendered 22144 of 250000 pixels (8%)Rendered 23168 of 250000 pixels (9%)Rendered 24192 of 250000 pixels (9%)Rendered 25216 of 250000 pixels (10%)Rendered 26240 of 250000 pixels (10%)Rendered 27264 of 250000 pixels (10%)Rendered 28288 of 250000 pixels (11%)Rendered 29312 of 250000 pixels (11%)Rendered 30336 of 250000 pixels (12%)Rendered 31360 of 250000 pixels (12%)Rendered 32384 of 250000 pixels (12%)Rendered 33408 of 250000 pixels (13%)Rendered 34432 of 250000 pixels (13%)Rendered 35456 of 250000 pixels (14%)Rendered 36480 of 250000 pixels (14%)Rendered 37120 of 250000 pixels (14%)Rendered 38144 of 250000 pixels (15%)Rendered 39168 of 250000 pixels (15%)Rendered 40192 of 250000 pixels (16%)Rendered 41216 of 250000 pixels (16%)Rendered 42240 of 250000 pixels (16%)Rendered 43264 of 250000 pixels (17%)Rendered 44288 of 250000 pixels (17%)Rendered 45312 of 250000 pixels (18%)Rendered 46336 of 250000 pixels (18%)Rendered 46976 of 250000 pixels (18%)Rendered 48000 of 250000 pixels (19%)Rendered 49024 of 250000 pixels (19%)Rendered 50048 of 250000 pixels (20%)Rendered 51072 of 250000 pixels (20%)Rendered 52096 of 250000 pixels (20%)Rendered 53120 of 250000 pixels (21%)Rendered 54144 of 250000 pixels (21%)Rendered 55168 of 250000 pixels (22%)Rendered 56192 of 250000 pixels (22%)Rendered 57216 of 250000 pixels (22%)Rendered 58240 of 250000 pixels (23%)Rendered 59264 of 250000 pixels (23%)Rendered 60288 of 250000 pixels (24%)Rendered 61312 of 250000 pixels (24%)Rendered 62336 of 250000 pixels (24%)Rendered 63360 of 250000 pixels (25%)Rendered 64384 of 250000 pixels (25%)Rendered 65408 of 250000 pixels (26%)Rendered 66432 of 250000 pixels (26%)Rendered 67456 of 250000 pixels (26%)Rendered 68480 of 250000 pixels (27%)Rendered 69504 of 250000 pixels (27%)Rendered 70528 of 250000 pixels (28%)Rendered 71552 of 250000 pixels (28%)Rendered 72576 of 250000 pixels (29%)Rendered 73600 of 250000 pixels (29%)Rendered 74240 of 250000 pixels (29%)Rendered 75264 of 250000 pixels (30%)Rendered 76288 of 250000 pixels (30%)Rendered 77312 of 250000 pixels (30%)Rendered 78336 of 250000 pixels (31%)Rendered 79360 of 250000 pixels (31%)Rendered 80384 of 250000 pixels (32%)Rendered 81408 of 250000 pixels (32%)Rendered 82432 of 250000 pixels (32%)Rendered 83456 of 250000 pixels (33%)Rendered 84480 of 250000 pixels (33%)Rendered 85504 of 250000 pixels (34%)Rendered 86528 of 250000 pixels (34%)Rendered 87552 of 250000 pixels (35%)Rendered 88576 of 250000 pixels (35%)Rendered 89600 of 250000 pixels (35%)Rendered 90624 of 250000 pixels (36%)Rendered 91648 of 250000 pixels (36%)Rendered 92672 of 250000 pixels (37%)Rendered 93696 of 250000 pixels (37%)Rendered 94720 of 250000 pixels (37%)Rendered 95744 of 250000 pixels (38%)Rendered 96768 of 250000 pixels (38%)Rendered 97408 of 250000 pixels (38%)Rendered 98432 of 250000 pixels (39%)Rendered 99456 of 250000 pixels (39%)Rendered 100480 of 250000 pixels (40%)Rendered 101504 of 250000 pixels (40%)Rendered 102528 of 250000 pixels (41%)Rendered 103552 of 250000 pixels (41%)Rendered 104576 of 250000 pixels (41%)Rendered 105600 of 250000 pixels (42%)Rendered 106240 of 250000 pixels (42%)Rendered 107264 of 250000 pixels (42%)Rendered 108288 of 250000 pixels (43%)Rendered 109312 of 250000 pixels (43%)Rendered 110336 of 250000 pixels (44%)Rendered 111360 of 250000 pixels (44%)Rendered 112384 of 250000 pixels (44%)Rendered 113024 of 250000 pixels (45%)Rendered 114048 of 250000 pixels (45%)Rendered 115072 of 250000 pixels (46%)Rendered 116096 of 250000 pixels (46%)Rendered 117120 of 250000 pixels (46%)Rendered 118144 of 250000 pixels (47%)Rendered 119168 of 250000 pixels (47%)Rendered 120192 of 250000 pixels (48%)Rendered 121216 of 250000 pixels (48%)Rendered 122240 of 250000 pixels (48%)Rendered 123264 of 250000 pixels (49%)Rendered 124288 of 250000 pixels (49%)Rendered 125312 of 250000 pixels (50%)Rendered 126336 of 250000 pixels (50%)Rendered 127360 of 250000 pixels (50%)Rendered 128000 of 250000 pixels (51%)Rendered 129024 of 250000 pixels (51%)Rendered 130048 of 250000 pixels (52%)Rendered 131072 of 250000 pixels (52%)Rendered 132096 of 250000 pixels (52%)Rendered 133120 of 250000 pixels (53%)Rendered 134144 of 250000 pixels (53%)Rendered 135168 of 250000 pixels (54%)Rendered 136192 of 250000 pixels (54%)Rendered 137216 of 250000 pixels (54%)Rendered 138240 of 250000 pixels (55%)Rendered 139264 of 250000 pixels (55%)Rendered 140288 of 250000 pixels (56%)Rendered 141312 of 250000 pixels (56%)Rendered 142336 of 250000 pixels (56%)Rendered 143360 of 250000 pixels (57%)Rendered 144384 of 250000 pixels (57%)Rendered 145408 of 250000 pixels (58%)Rendered 146432 of 250000 pixels (58%)Rendered 147072 of 250000 pixels (58%)Rendered 148096 of 250000 pixels (59%)Rendered 149120 of 250000 pixels (59%)Rendered 150144 of 250000 pixels (60%)Rendered 151168 of 250000 pixels (60%)Rendered 152192 of 250000 pixels (60%)Rendered 153216 of 250000 pixels (61%)Rendered 154240 of 250000 pixels (61%)Rendered 155264 of 250000 pixels (62%)Rendered 156288 of 250000 pixels (62%)Rendered 157312 of 250000 pixels (62%)Rendered 158336 of 250000 pixels (63%)Rendered 159360 of 250000 pixels (63%)Rendered 160384 of 250000 pixels (64%)Rendered 161408 of 250000 pixels (64%)Rendered 162048 of 250000 pixels (64%)Rendered 163072 of 250000 pixels (65%)Rendered 164096 of 250000 pixels (65%)Rendered 165120 of 250000 pixels (66%)Rendered 166144 of 250000 pixels (66%)Rendered 167168 of 250000 pixels (66%)Rendered 168192 of 250000 pixels (67%)Rendered 169216 of 250000 pixels (67%)Rendered 170240 of 250000 pixels (68%)Rendered 171264 of 250000 pixels (68%)Rendered 172288 of 250000 pixels (68%)Rendered 173312 of 250000 pixels (69%)Rendered 174336 of 250000 pixels (69%)Rendered 175360 of 250000 pixels (70%)Rendered 176384 of 250000 pixels (70%)Rendered 177408 of 250000 pixels (70%)Rendered 178432 of 250000 pixels (71%)Rendered 179456 of 250000 pixels (71%)Rendered 180096 of 250000 pixels (72%)Rendered 181120 of 250000 pixels (72%)Rendered 182144 of 250000 pixels (72%)Rendered 183168 of 250000 pixels (73%)Rendered 184192 of 250000 pixels (73%)Rendered 185216 of 250000 pixels (74%)Rendered 186240 of 250000 pixels (74%)Rendered 187264 of 250000 pixels (74%)Rendered 188288 of 250000 pixels (75%)Rendered 189312 of 250000 pixels (75%)Rendered 190336 of 250000 pixels (76%)Rendered 191360 of 250000 pixels (76%)Rendered 192384 of 250000 pixels (76%)Rendered 193408 of 250000 pixels (77%)Rendered 194432 of 250000 pixels (77%)Rendered 195072 of 250000 pixels (78%)Rendered 196096 of 250000 pixels (78%)Rendered 197120 of 250000 pixels (78%)Rendered 198144 of 250000 pixels (79%)Rendered 199168 of 250000 pixels (79%)Rendered 200192 of 250000 pixels (80%)Rendered 201216 of 250000 pixels (80%)Rendered 202240 of 250000 pixels (80%)Rendered 203264 of 250000 pixels (81%)Rendered 204288 of 250000 pixels (81%)Rendered 205312 of 250000 pixels (82%)Rendered 206336 of 250000 pixels (82%)Rendered 206976 of 250000 pixels (82%)Rendered 208000 of 250000 pixels (83%)Rendered 209024 of 250000 pixels (83%)Rendered 210048 of 250000 pixels (84%)Rendered 211072 of 250000 pixels (84%)Rendered 212096 of 250000 pixels (84%)Rendered 213120 of 250000 pixels (85%)Rendered 214144 of 250000 pixels (85%)Rendered 215168 of 250000 pixels (86%)Rendered 216192 of 250000 pixels (86%)Rendered 217216 of 250000 pixels (86%)Rendered 218240 of 250000 pixels (87%)Rendered 219264 of 250000 pixels (87%)Rendered 220288 of 250000 pixels (88%)Rendered 220928 of 250000 pixels (88%)Rendered 221952 of 250000 pixels (88%)Rendered 222976 of 250000 pixels (89%)Rendered 224000 of 250000 pixels (89%)Rendered 225024 of 250000 pixels (90%)Rendered 226048 of 250000 pixels (90%)Rendered 227072 of 250000 pixels (90%)Rendered 228096 of 250000 pixels (91%)Rendered 229120 of 250000 pixels (91%)Rendered 230144 of 250000 pixels (92%)Rendered 231168 of 250000 pixels (92%)Rendered 232192 of 250000 pixels (92%)Rendered 233216 of 250000 pixels (93%)Rendered 234240 of 250000 pixels (93%)Rendered 235264 of 250000 pixels (94%)Rendered 236288 of 250000 pixels (94%)Rendered 237312 of 250000 pixels (94%)Rendered 237952 of 250000 pixels (95%)Rendered 238976 of 250000 pixels (95%)Rendered 240000 of 250000 pixels (96%)Rendered 240640 of 250000 pixels (96%)Rendered 241280 of 250000 pixels (96%)Rendered 241920 of 250000 pixels (96%)Rendered 242560 of 250000 pixels (97%)Rendered 243200 of 250000 pixels (97%)Rendered 243840 of 250000 pixels (97%)Rendered 244480 of 250000 pixels (97%)Rendered 245120 of 250000 pixels (98%)Rendered 245760 of 250000 pixels (98%)Rendered 246400 of 250000 pixels (98%)Rendered 247040 of 250000 pixels (98%)Rendered 247680 of 250000 pixels (99%)Rendered 248320 of 250000 pixels (99%)Rendered 248720 of 250000 pixels (99%)Rendered 249360 of 250000 pixels (99%)Rendered 250000 of 250000 pixels (100%)
+Rendered 1024 of 250000 pixels (0%)Rendered 2048 of 250000 pixels (0%)Rendered 3072 of 250000 pixels (1%)Rendered 4096 of 250000 pixels (1%)Rendered 5120 of 250000 pixels (2%)Rendered 6144 of 250000 pixels (2%)Rendered 7168 of 250000 pixels (2%)Rendered 8192 of 250000 pixels (3%)Rendered 9216 of 250000 pixels (3%)Rendered 10240 of 250000 pixels (4%)Rendered 11264 of 250000 pixels (4%)Rendered 12288 of 250000 pixels (4%)Rendered 13312 of 250000 pixels (5%)Rendered 14336 of 250000 pixels (5%)Rendered 15360 of 250000 pixels (6%)Rendered 16000 of 250000 pixels (6%)Rendered 17024 of 250000 pixels (6%)Rendered 18048 of 250000 pixels (7%)Rendered 19072 of 250000 pixels (7%)Rendered 20096 of 250000 pixels (8%)Rendered 21120 of 250000 pixels (8%)Rendered 22144 of 250000 pixels (8%)Rendered 23168 of 250000 pixels (9%)Rendered 24192 of 250000 pixels (9%)Rendered 25216 of 250000 pixels (10%)Rendered 26240 of 250000 pixels (10%)Rendered 27264 of 250000 pixels (10%)Rendered 28288 of 250000 pixels (11%)Rendered 29312 of 250000 pixels (11%)Rendered 30336 of 250000 pixels (12%)Rendered 30976 of 250000 pixels (12%)Rendered 32000 of 250000 pixels (12%)Rendered 33024 of 250000 pixels (13%)Rendered 34048 of 250000 pixels (13%)Rendered 35072 of 250000 pixels (14%)Rendered 36096 of 250000 pixels (14%)Rendered 37120 of 250000 pixels (14%)Rendered 38144 of 250000 pixels (15%)Rendered 39168 of 250000 pixels (15%)Rendered 40192 of 250000 pixels (16%)Rendered 41216 of 250000 pixels (16%)Rendered 42240 of 250000 pixels (16%)Rendered 43264 of 250000 pixels (17%)Rendered 44288 of 250000 pixels (17%)Rendered 45312 of 250000 pixels (18%)Rendered 45952 of 250000 pixels (18%)Rendered 46976 of 250000 pixels (18%)Rendered 48000 of 250000 pixels (19%)Rendered 49024 of 250000 pixels (19%)Rendered 50048 of 250000 pixels (20%)Rendered 51072 of 250000 pixels (20%)Rendered 52096 of 250000 pixels (20%)Rendered 53120 of 250000 pixels (21%)Rendered 54144 of 250000 pixels (21%)Rendered 55168 of 250000 pixels (22%)Rendered 56192 of 250000 pixels (22%)Rendered 57216 of 250000 pixels (22%)Rendered 58240 of 250000 pixels (23%)Rendered 59264 of 250000 pixels (23%)Rendered 60288 of 250000 pixels (24%)Rendered 60928 of 250000 pixels (24%)Rendered 61952 of 250000 pixels (24%)Rendered 62976 of 250000 pixels (25%)Rendered 64000 of 250000 pixels (25%)Rendered 65024 of 250000 pixels (26%)Rendered 66048 of 250000 pixels (26%)Rendered 67072 of 250000 pixels (26%)Rendered 68096 of 250000 pixels (27%)Rendered 69120 of 250000 pixels (27%)Rendered 70144 of 250000 pixels (28%)Rendered 71168 of 250000 pixels (28%)Rendered 72192 of 250000 pixels (28%)Rendered 73216 of 250000 pixels (29%)Rendered 74240 of 250000 pixels (29%)Rendered 75264 of 250000 pixels (30%)Rendered 76288 of 250000 pixels (30%)Rendered 77312 of 250000 pixels (30%)Rendered 78336 of 250000 pixels (31%)Rendered 79360 of 250000 pixels (31%)Rendered 80384 of 250000 pixels (32%)Rendered 81408 of 250000 pixels (32%)Rendered 82048 of 250000 pixels (32%)Rendered 83072 of 250000 pixels (33%)Rendered 84096 of 250000 pixels (33%)Rendered 85120 of 250000 pixels (34%)Rendered 86144 of 250000 pixels (34%)Rendered 87168 of 250000 pixels (34%)Rendered 88192 of 250000 pixels (35%)Rendered 89216 of 250000 pixels (35%)Rendered 90240 of 250000 pixels (36%)Rendered 91264 of 250000 pixels (36%)Rendered 92288 of 250000 pixels (36%)Rendered 93312 of 250000 pixels (37%)Rendered 93952 of 250000 pixels (37%)Rendered 94976 of 250000 pixels (37%)Rendered 96000 of 250000 pixels (38%)Rendered 97024 of 250000 pixels (38%)Rendered 98048 of 250000 pixels (39%)Rendered 99072 of 250000 pixels (39%)Rendered 100096 of 250000 pixels (40%)Rendered 101120 of 250000 pixels (40%)Rendered 102144 of 250000 pixels (40%)Rendered 103168 of 250000 pixels (41%)Rendered 104192 of 250000 pixels (41%)Rendered 105216 of 250000 pixels (42%)Rendered 106240 of 250000 pixels (42%)Rendered 107264 of 250000 pixels (42%)Rendered 108288 of 250000 pixels (43%)Rendered 108928 of 250000 pixels (43%)Rendered 109952 of 250000 pixels (43%)Rendered 110976 of 250000 pixels (44%)Rendered 112000 of 250000 pixels (44%)Rendered 113024 of 250000 pixels (45%)Rendered 114048 of 250000 pixels (45%)Rendered 115072 of 250000 pixels (46%)Rendered 116096 of 250000 pixels (46%)Rendered 117120 of 250000 pixels (46%)Rendered 118144 of 250000 pixels (47%)Rendered 119168 of 250000 pixels (47%)Rendered 120192 of 250000 pixels (48%)Rendered 121216 of 250000 pixels (48%)Rendered 122240 of 250000 pixels (48%)Rendered 123264 of 250000 pixels (49%)Rendered 124288 of 250000 pixels (49%)Rendered 125312 of 250000 pixels (50%)Rendered 125952 of 250000 pixels (50%)Rendered 126976 of 250000 pixels (50%)Rendered 128000 of 250000 pixels (51%)Rendered 129024 of 250000 pixels (51%)Rendered 130048 of 250000 pixels (52%)Rendered 131072 of 250000 pixels (52%)Rendered 132096 of 250000 pixels (52%)Rendered 133120 of 250000 pixels (53%)Rendered 134144 of 250000 pixels (53%)Rendered 135168 of 250000 pixels (54%)Rendered 136192 of 250000 pixels (54%)Rendered 137216 of 250000 pixels (54%)Rendered 138240 of 250000 pixels (55%)Rendered 139264 of 250000 pixels (55%)Rendered 140288 of 250000 pixels (56%)Rendered 141312 of 250000 pixels (56%)Rendered 142336 of 250000 pixels (56%)Rendered 143360 of 250000 pixels (57%)Rendered 144384 of 250000 pixels (57%)Rendered 145408 of 250000 pixels (58%)Rendered 146432 of 250000 pixels (58%)Rendered 147072 of 250000 pixels (58%)Rendered 148096 of 250000 pixels (59%)Rendered 149120 of 250000 pixels (59%)Rendered 150144 of 250000 pixels (60%)Rendered 151168 of 250000 pixels (60%)Rendered 152192 of 250000 pixels (60%)Rendered 153216 of 250000 pixels (61%)Rendered 154240 of 250000 pixels (61%)Rendered 155264 of 250000 pixels (62%)Rendered 156288 of 250000 pixels (62%)Rendered 157312 of 250000 pixels (62%)Rendered 158336 of 250000 pixels (63%)Rendered 159360 of 250000 pixels (63%)Rendered 160384 of 250000 pixels (64%)Rendered 161408 of 250000 pixels (64%)Rendered 162432 of 250000 pixels (64%)Rendered 163072 of 250000 pixels (65%)Rendered 164096 of 250000 pixels (65%)Rendered 165120 of 250000 pixels (66%)Rendered 166144 of 250000 pixels (66%)Rendered 167168 of 250000 pixels (66%)Rendered 168192 of 250000 pixels (67%)Rendered 169216 of 250000 pixels (67%)Rendered 170240 of 250000 pixels (68%)Rendered 171264 of 250000 pixels (68%)Rendered 172288 of 250000 pixels (68%)Rendered 173312 of 250000 pixels (69%)Rendered 174336 of 250000 pixels (69%)Rendered 174976 of 250000 pixels (69%)Rendered 176000 of 250000 pixels (70%)Rendered 177024 of 250000 pixels (70%)Rendered 178048 of 250000 pixels (71%)Rendered 179072 of 250000 pixels (71%)Rendered 180096 of 250000 pixels (72%)Rendered 181120 of 250000 pixels (72%)Rendered 182144 of 250000 pixels (72%)Rendered 183168 of 250000 pixels (73%)Rendered 184192 of 250000 pixels (73%)Rendered 185216 of 250000 pixels (74%)Rendered 186240 of 250000 pixels (74%)Rendered 187264 of 250000 pixels (74%)Rendered 188288 of 250000 pixels (75%)Rendered 189312 of 250000 pixels (75%)Rendered 190336 of 250000 pixels (76%)Rendered 191360 of 250000 pixels (76%)Rendered 192384 of 250000 pixels (76%)Rendered 193408 of 250000 pixels (77%)Rendered 194048 of 250000 pixels (77%)Rendered 195072 of 250000 pixels (78%)Rendered 196096 of 250000 pixels (78%)Rendered 197120 of 250000 pixels (78%)Rendered 198144 of 250000 pixels (79%)Rendered 199168 of 250000 pixels (79%)Rendered 200192 of 250000 pixels (80%)Rendered 201216 of 250000 pixels (80%)Rendered 202240 of 250000 pixels (80%)Rendered 203264 of 250000 pixels (81%)Rendered 204288 of 250000 pixels (81%)Rendered 205312 of 250000 pixels (82%)Rendered 206336 of 250000 pixels (82%)Rendered 207360 of 250000 pixels (82%)Rendered 208384 of 250000 pixels (83%)Rendered 209408 of 250000 pixels (83%)Rendered 210048 of 250000 pixels (84%)Rendered 211072 of 250000 pixels (84%)Rendered 212096 of 250000 pixels (84%)Rendered 213120 of 250000 pixels (85%)Rendered 214144 of 250000 pixels (85%)Rendered 215168 of 250000 pixels (86%)Rendered 216192 of 250000 pixels (86%)Rendered 217216 of 250000 pixels (86%)Rendered 218240 of 250000 pixels (87%)Rendered 219264 of 250000 pixels (87%)Rendered 220288 of 250000 pixels (88%)Rendered 221312 of 250000 pixels (88%)Rendered 222336 of 250000 pixels (88%)Rendered 223360 of 250000 pixels (89%)Rendered 224384 of 250000 pixels (89%)Rendered 225408 of 250000 pixels (90%)Rendered 226048 of 250000 pixels (90%)Rendered 227072 of 250000 pixels (90%)Rendered 228096 of 250000 pixels (91%)Rendered 229120 of 250000 pixels (91%)Rendered 230144 of 250000 pixels (92%)Rendered 231168 of 250000 pixels (92%)Rendered 232192 of 250000 pixels (92%)Rendered 233216 of 250000 pixels (93%)Rendered 234240 of 250000 pixels (93%)Rendered 235264 of 250000 pixels (94%)Rendered 236288 of 250000 pixels (94%)Rendered 237312 of 250000 pixels (94%)Rendered 238336 of 250000 pixels (95%)Rendered 238976 of 250000 pixels (95%)Rendered 239616 of 250000 pixels (95%)Rendered 240640 of 250000 pixels (96%)Rendered 241280 of 250000 pixels (96%)Rendered 241920 of 250000 pixels (96%)Rendered 242560 of 250000 pixels (97%)Rendered 243200 of 250000 pixels (97%)Rendered 243840 of 250000 pixels (97%)Rendered 244480 of 250000 pixels (97%)Rendered 245120 of 250000 pixels (98%)Rendered 245760 of 250000 pixels (98%)Rendered 246400 of 250000 pixels (98%)Rendered 247040 of 250000 pixels (98%)Rendered 247680 of 250000 pixels (99%)Rendered 248320 of 250000 pixels (99%)Rendered 248960 of 250000 pixels (99%)Rendered 249600 of 250000 pixels (99%)Rendered 250000 of 250000 pixels (100%)
 ----------------------------------------------------------------------------
 Render Statistics
 Image Resolution 500 x 500
 ----------------------------------------------------------------------------
 Pixels:           250000   Samples:               0   Smpls/Pxl: 0.00
-Rays:             502266   Saved:                 0   Max Level: 3/5
+Rays:             454276   Saved:                 0   Max Level: 3/5
 ----------------------------------------------------------------------------
 Ray->Shape Intersection          Tests       Succeeded  Percentage
 ----------------------------------------------------------------------------
-Mesh                           9854327         3756492     38.12
-Plane                         34244466         1851814      5.41
-Bounding Box                1410367848       314149491     22.27
+Mesh                           8722937         3594174     41.20
+Plane                         30859944         1580969      5.12
+Bounding Box                1259330928       288441166     22.90
 ----------------------------------------------------------------------------
-Shadow Ray Tests:          10912556   Succeeded:               4099431
-Reflected Rays:              106592
-Refracted Rays:              145674
+Shadow Ray Tests:           9832372   Succeeded:               3755222
+Reflected Rays:               85137
+Refracted Rays:              119139
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
 Render Time:
   Photon Time:      No photons
   Radiosity Time:   No radiosity
-  Trace Time:       0 hours  0 minutes 22 seconds (22.297 seconds)
-              using 4 thread(s) with 88.890 CPU-seconds total
+  Trace Time:       0 hours  0 minutes 27 seconds (27.509 seconds)
+              using 4 thread(s) with 81.328 CPU-seconds total
 POV-Ray finished
 

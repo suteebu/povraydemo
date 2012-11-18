@@ -1,0 +1,441 @@
+povray: This is a RELEASE CANDIDATE version of POV-Ray. General distribution is discouraged.
+povray: cannot open the user configuration file /home/ubuntu/.povray/3.7/povray.conf: No such file or directory
+Persistence of Vision(tm) Ray Tracer Version 3.7.0.RC6 (g++ 4.6 @
+ x86_64-unknown-linux-gnu)
+This is a release candidate of POV-Ray version 3.7.0.
+General distribution is strongly discouraged.
+
+POV-Ray is based on DKBTrace 2.12 by David K. Buck & Aaron A. Collins
+Copyright 1991-2003 Persistence of Vision Team
+Copyright 2003-2011 Persistence of Vision Raytracer Pty. Ltd.
+
+Primary POV-Ray 3.7 Architects/Developers: (Alphabetically)
+  Chris Cason         Thorsten Froehlich  Christoph Lipka   
+
+With Assistance From: (Alphabetically)
+  Nicolas Calimet     James Holsenback    Christoph Hormann   Nathan Kopp       
+  Juha Nieminen     
+
+Past Contributors: (Alphabetically)
+  Steve Anger         Eric Barish         Dieter Bayer        David K. Buck     
+  Nicolas Calimet     Chris Cason         Aaron A. Collins    Chris Dailey      
+  Steve Demlow        Andreas Dilger      Alexander Enzmann   Dan Farmer        
+  Thorsten Froehlich  Mark Gordon         James Holsenback    Christoph Hormann 
+  Mike Hough          Chris Huff          Kari Kivisalo       Nathan Kopp       
+  Lutz Kretzschmar    Christoph Lipka     Jochen Lippert      Pascal Massimino  
+  Jim McElhiney       Douglas Muir        Juha Nieminen       Ron Parker        
+  Bill Pulver         Eduard Schwan       Wlodzimierz Skiba   Robert Skinner    
+  Yvo Smellenbergh    Zsolt Szalavari     Scott Taylor        Massimo Valentini 
+  Timothy Wegner      Drew Wells          Chris Young       
+
+Other contributors are listed in the documentation.
+
+Support libraries used by POV-Ray:
+  ZLib 1.2.3.4, Copyright 1995-1998 Jean-loup Gailly and Mark Adler
+  LibPNG 1.2.46, Copyright 1998-2002 Glenn Randers-Pehrson
+  LibJPEG 80, Copyright 1998 Thomas G. Lane
+  LibTIFF 3.9.5, Copyright 1988-1997 Sam Leffler, 1991-1997 SGI
+  Boost 1.46, http://www.boost.org/
+
+Parser Options
+  Input file: frame042.pov
+  Remove bounds........On 
+  Split unions.........Off
+  Library paths:
+    /usr/local/share/povray-3.7
+    /usr/local/share/povray-3.7/ini
+    /usr/local/share/povray-3.7/include
+  Clock value:    0.000  (Animation off)
+Image Output Options
+  Image resolution.....500 by 500 (rows 1 to 500, columns 1 to 500).
+  Output file..........frame042.png, 24 bpp PNG
+  Dithering............Off
+  Graphic display......Off
+  Mosaic preview.......Off
+  Continued trace......Off
+Information Output Options
+  All Streams to console..........On 
+  Debug Stream to console.........On 
+  Fatal Stream to console.........On 
+  Render Stream to console........On 
+  Statistics Stream to console....On 
+  Warning Stream to console.......On 
+==== [Parsing...] ==========================================================
+computing 1000x500 height field...
+
+
+0% completed
+0% completed
+1% completed
+1% completed
+1% completed
+1% completed
+1% completed
+2% completed
+2% completed
+Parsing 4339K tokens
+2% completed
+2% completed
+2% completed
+3% completed
+3% completed
+3% completed
+3% completed
+3% completed
+4% completed
+4% completed
+Parsing 8720K tokens
+4% completed
+4% completed
+4% completed
+5% completed
+5% completed
+5% completed
+5% completed
+5% completed
+6% completed
+6% completed
+Parsing 13105K tokens
+6% completed
+6% completed
+6% completed
+7% completed
+7% completed
+7% completed
+7% completed
+7% completed
+8% completed
+8% completed
+Parsing 17494K tokens
+8% completed
+8% completed
+8% completed
+9% completed
+9% completed
+9% completed
+9% completed
+9% completed
+10% completed
+10% completed
+10% completed
+Parsing 21888K tokens
+10% completed
+10% completed
+11% completed
+11% completed
+11% completed
+11% completed
+11% completed
+12% completed
+12% completed
+Parsing 26273K tokens
+12% completed
+12% completed
+12% completed
+13% completed
+13% completed
+13% completed
+13% completed
+13% completed
+14% completed
+14% completed
+Parsing 30674K tokens
+14% completed
+14% completed
+14% completed
+15% completed
+15% completed
+15% completed
+15% completed
+15% completed
+16% completed
+16% completed
+Parsing 35071K tokens
+16% completed
+16% completed
+16% completed
+17% completed
+17% completed
+17% completed
+17% completed
+17% completed
+18% completed
+18% completed
+Parsing 39480K tokens
+18% completed
+18% completed
+18% completed
+19% completed
+19% completed
+19% completed
+19% completed
+19% completed
+20% completed
+Parsing 43862K tokens
+20% completed
+20% completed
+20% completed
+20% completed
+21% completed
+21% completed
+21% completed
+21% completed
+21% completed
+Parsing 48246K tokens
+22% completed
+22% completed
+22% completed
+22% completed
+22% completed
+23% completed
+23% completed
+23% completed
+Parsing 52673K tokens
+23% completed
+23% completed
+24% completed
+24% completed
+24% completed
+24% completed
+24% completed
+25% completed
+Parsing 57115K tokens
+25% completed
+25% completed
+25% completed
+25% completed
+26% completed
+26% completed
+26% completed
+26% completed
+26% completed
+Parsing 61539K tokens
+27% completed
+27% completed
+27% completed
+27% completed
+27% completed
+28% completed
+28% completed
+28% completed
+Parsing 65961K tokens
+28% completed
+28% completed
+29% completed
+29% completed
+29% completed
+29% completed
+29% completed
+30% completed
+Parsing 70393K tokens
+30% completed
+30% completed
+30% completed
+30% completed
+31% completed
+31% completed
+31% completed
+31% completed
+Parsing 74832K tokens
+31% completed
+32% completed
+32% completed
+32% completed
+32% completed
+32% completed
+33% completed
+Parsing 79299K tokens
+33% completed
+33% completed
+33% completed
+33% completed
+34% completed
+34% completed
+34% completed
+Parsing 83778K tokens
+34% completed
+34% completed
+35% completed
+35% completed
+35% completed
+35% completed
+Parsing 88255K tokens
+35% completed
+36% completed
+36% completed
+36% completed
+36% completed
+Parsing 92782K tokens
+36% completed
+37% completed
+37% completed
+37% completed
+37% completed
+Parsing 97313K tokens
+37% completed
+38% completed
+38% completed
+38% completed
+38% completed
+Parsing 101843K tokens
+38% completed
+39% completed
+39% completed
+39% completed
+39% completed
+Parsing 106385K tokens
+39% completed
+40% completed
+40% completed
+40% completed
+Parsing 110951K tokens
+40% completed
+40% completed
+41% completed
+41% completed
+Parsing 115521K tokens
+41% completed
+41% completed
+41% completed
+42% completed
+Parsing 120103K tokens
+42% completed
+42% completed
+42% completed
+Parsing 124692K tokens
+42% completed
+43% completed
+43% completed
+43% completed
+Parsing 129269K tokens
+43% completed
+43% completed
+44% completed
+Parsing 133853K tokens
+44% completed
+44% completed
+44% completed
+44% completed
+Parsing 138427K tokens
+45% completed
+45% completed
+45% completed
+45% completed
+Parsing 142992K tokens
+45% completed
+46% completed
+46% completed
+Parsing 147574K tokens
+46% completed
+46% completed
+46% completed
+47% completed
+Parsing 152130K tokens
+47% completed
+47% completed
+47% completed
+Parsing 156710K tokens
+47% completed
+48% completed
+48% completed
+48% completed
+Parsing 161281K tokens
+48% completed
+48% completed
+49% completed
+Parsing 165868K tokens
+49% completed
+49% completed
+49% completed
+49% completed
+Parsing 170440K tokens
+50% completed
+50% completed
+50% completed
+Parsing 175019K tokens
+50% completed
+50% completed
+51% completed
+51% completed
+Parsing 179596K tokens
+51% completed
+51% completed
+51% completed
+Parsing 184191K tokens
+52% completed
+52% completed
+52% completed
+52% completed
+Parsing 188772K tokens
+52% completed
+53% completed
+53% completed
+Parsing 193354K tokens
+53% completed
+53% completed
+53% completed
+54% completed
+Parsing 197941K tokens
+54% completed
+54% completed
+54% completed
+Parsing 202520K tokens
+54% completed
+55% completed
+55% completed
+55% completed
+Parsing 207095K tokens
+55% completed
+55% completed
+56% completed
+56% completed
+Parsing 211674K tokens
+56% completed
+56% completed
+56% completed
+Parsing 216258K tokens
+57% completed
+57% completed
+57% completed
+57% completed
+Parsing 220800K tokens
+57% completed
+58% completed
+58% completed
+Parsing 225227K tokens
+58% completed
+58% completed
+58% completed
+59% completed
+Parsing 229786K tokens
+59% completed
+59% completed
+59% completed
+59% completed
+Parsing 234343K tokens
+60% completed
+60% completed
+60% completed
+60% completed
+Parsing 238905K tokens
+60% completed
+61% completed
+61% completed
+61% completed
+Parsing 243459K tokens
+61% completed
+61% completed
+62% completed
+62% completed
+62% completed
+Parsing 248001K tokens
+62% completed
+62% completed
+63% completed
+63% completed
+63% completed
+Parsing 252538K tokens
+63% completed
+63% completed
+64% completed
+64% completed

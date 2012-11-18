@@ -1,0 +1,327 @@
+povray: This is a RELEASE CANDIDATE version of POV-Ray. General distribution is discouraged.
+povray: cannot open the user configuration file /home/ubuntu/.povray/3.7/povray.conf: No such file or directory
+Persistence of Vision(tm) Ray Tracer Version 3.7.0.RC6 (g++ 4.6 @
+ x86_64-unknown-linux-gnu)
+This is a release candidate of POV-Ray version 3.7.0.
+General distribution is strongly discouraged.
+
+POV-Ray is based on DKBTrace 2.12 by David K. Buck & Aaron A. Collins
+Copyright 1991-2003 Persistence of Vision Team
+Copyright 2003-2011 Persistence of Vision Raytracer Pty. Ltd.
+
+Primary POV-Ray 3.7 Architects/Developers: (Alphabetically)
+  Chris Cason         Thorsten Froehlich  Christoph Lipka   
+
+With Assistance From: (Alphabetically)
+  Nicolas Calimet     James Holsenback    Christoph Hormann   Nathan Kopp       
+  Juha Nieminen     
+
+Past Contributors: (Alphabetically)
+  Steve Anger         Eric Barish         Dieter Bayer        David K. Buck     
+  Nicolas Calimet     Chris Cason         Aaron A. Collins    Chris Dailey      
+  Steve Demlow        Andreas Dilger      Alexander Enzmann   Dan Farmer        
+  Thorsten Froehlich  Mark Gordon         James Holsenback    Christoph Hormann 
+  Mike Hough          Chris Huff          Kari Kivisalo       Nathan Kopp       
+  Lutz Kretzschmar    Christoph Lipka     Jochen Lippert      Pascal Massimino  
+  Jim McElhiney       Douglas Muir        Juha Nieminen       Ron Parker        
+  Bill Pulver         Eduard Schwan       Wlodzimierz Skiba   Robert Skinner    
+  Yvo Smellenbergh    Zsolt Szalavari     Scott Taylor        Massimo Valentini 
+  Timothy Wegner      Drew Wells          Chris Young       
+
+Other contributors are listed in the documentation.
+
+Support libraries used by POV-Ray:
+  ZLib 1.2.3.4, Copyright 1995-1998 Jean-loup Gailly and Mark Adler
+  LibPNG 1.2.46, Copyright 1998-2002 Glenn Randers-Pehrson
+  LibJPEG 80, Copyright 1998 Thomas G. Lane
+  LibTIFF 3.9.5, Copyright 1988-1997 Sam Leffler, 1991-1997 SGI
+  Boost 1.46, http://www.boost.org/
+
+Parser Options
+  Input file: frame108.pov
+  Remove bounds........On 
+  Split unions.........Off
+  Library paths:
+    /usr/local/share/povray-3.7
+    /usr/local/share/povray-3.7/ini
+    /usr/local/share/povray-3.7/include
+  Clock value:    0.000  (Animation off)
+Image Output Options
+  Image resolution.....500 by 500 (rows 1 to 500, columns 1 to 500).
+  Output file..........frame108.png, 24 bpp PNG
+  Dithering............Off
+  Graphic display......Off
+  Mosaic preview.......Off
+  Continued trace......Off
+Information Output Options
+  All Streams to console..........On 
+  Debug Stream to console.........On 
+  Fatal Stream to console.........On 
+  Render Stream to console........On 
+  Statistics Stream to console....On 
+  Warning Stream to console.......On 
+==== [Parsing...] ==========================================================
+computing 1000x500 height field...
+
+
+0% completed
+0% completed
+1% completed
+1% completed
+1% completed
+1% completed
+1% completed
+2% completed
+2% completed
+Parsing 4436K tokens
+2% completed
+2% completed
+2% completed
+3% completed
+3% completed
+3% completed
+3% completed
+3% completed
+4% completed
+4% completed
+4% completed
+Parsing 8886K tokens
+4% completed
+4% completed
+5% completed
+5% completed
+5% completed
+5% completed
+5% completed
+6% completed
+6% completed
+6% completed
+Parsing 13322K tokens
+6% completed
+6% completed
+7% completed
+7% completed
+7% completed
+7% completed
+7% completed
+8% completed
+8% completed
+8% completed
+Parsing 17779K tokens
+8% completed
+8% completed
+9% completed
+9% completed
+9% completed
+9% completed
+9% completed
+10% completed
+10% completed
+10% completed
+Parsing 22238K tokens
+10% completed
+10% completed
+11% completed
+11% completed
+11% completed
+11% completed
+11% completed
+12% completed
+12% completed
+12% completed
+Parsing 26708K tokens
+12% completed
+12% completed
+13% completed
+13% completed
+13% completed
+13% completed
+13% completed
+14% completed
+14% completed
+14% completed
+Parsing 31184K tokens
+14% completed
+14% completed
+15% completed
+15% completed
+15% completed
+15% completed
+15% completed
+16% completed
+16% completed
+16% completed
+Parsing 35656K tokens
+16% completed
+16% completed
+17% completed
+17% completed
+17% completed
+17% completed
+17% completed
+18% completed
+18% completed
+18% completed
+Parsing 40133K tokens
+18% completed
+18% completed
+19% completed
+19% completed
+19% completed
+19% completed
+19% completed
+20% completed
+20% completed
+Parsing 44612K tokens
+20% completed
+20% completed
+20% completed
+21% completed
+21% completed
+21% completed
+21% completed
+21% completed
+22% completed
+Parsing 49094K tokens
+22% completed
+22% completed
+22% completed
+22% completed
+23% completed
+23% completed
+23% completed
+23% completed
+23% completed
+Parsing 53598K tokens
+24% completed
+24% completed
+24% completed
+24% completed
+24% completed
+25% completed
+25% completed
+25% completed
+Parsing 58073K tokens
+25% completed
+25% completed
+26% completed
+26% completed
+26% completed
+26% completed
+26% completed
+27% completed
+27% completed
+Parsing 62535K tokens
+27% completed
+27% completed
+27% completed
+28% completed
+28% completed
+28% completed
+28% completed
+28% completed
+Parsing 66934K tokens
+29% completed
+29% completed
+29% completed
+29% completed
+29% completed
+30% completed
+30% completed
+30% completed
+Parsing 71438K tokens
+30% completed
+30% completed
+31% completed
+31% completed
+31% completed
+31% completed
+31% completed
+32% completed
+Parsing 75962K tokens
+32% completed
+32% completed
+32% completed
+32% completed
+33% completed
+33% completed
+33% completed
+Parsing 80499K tokens
+33% completed
+33% completed
+34% completed
+34% completed
+34% completed
+34% completed
+Parsing 85061K tokens
+34% completed
+35% completed
+35% completed
+35% completed
+35% completed
+35% completed
+Parsing 89635K tokens
+36% completed
+36% completed
+36% completed
+36% completed
+36% completed
+37% completed
+Parsing 94205K tokens
+37% completed
+37% completed
+37% completed
+37% completed
+38% completed
+Parsing 98794K tokens
+38% completed
+38% completed
+38% completed
+38% completed
+39% completed
+Parsing 103341K tokens
+39% completed
+39% completed
+39% completed
+39% completed
+Parsing 107915K tokens
+40% completed
+40% completed
+40% completed
+40% completed
+Parsing 112502K tokens
+40% completed
+41% completed
+41% completed
+41% completed
+Parsing 117111K tokens
+41% completed
+41% completed
+42% completed
+42% completed
+Parsing 121728K tokens
+42% completed
+42% completed
+42% completed
+Parsing 126370K tokens
+43% completed
+43% completed
+43% completed
+43% completed
+Parsing 130994K tokens
+43% completed
+44% completed
+44% completed
+44% completed
+Parsing 135631K tokens
+44% completed
+44% completed
+45% completed
+
+povray: received signal SIGINT: Interrupt; requested render cancel
+45% completed
+Parsing 140251K tokens
+Fatal error in parser: Frontend halted render.
+Fatal error in parser: Frontend halted render.
+Render cancelled by user
+
