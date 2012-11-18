@@ -1,9 +1,13 @@
+Figure out how to add items to SQS
+
+
 - pre-existing for demo:
   - SQS queue
   - S3 bucket
   - self-refreshing html file that links to images of movie
 - Master ruby script to
   - generate path for camera
+    - figure out the path
   - generate .pov files with that camera setting and a comment at top of file IDing the file
   - send pov files to SQS queue
   - submit 50 Spot Requests to prosecute SQS queue (t1.micro?)

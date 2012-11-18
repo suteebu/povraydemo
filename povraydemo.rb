@@ -4,6 +4,7 @@
 require 'rubygems'
 require 'yaml'
 require 'aws-sdk'
+require 'pp'
 
 puts __FILE__
 
@@ -37,8 +38,25 @@ end
 
 AWS.config(config)
 
-###
+### FOOLING AROUND WITH SQS QUEUES
 
+# Creating JuliaIsleQueue
+sqs = AWS::SQS.new
+queue = sqs.queues.create("JuliaIsleQueue")
+puts "Created JuliaIsleQueue"
+pp sqs.queues.collect(&:url)
+
+#Populate JuliaIsleQueue
+msg = queue.send_message("Test")
+puts "Sent message: #{msg.id}"
+
+queue.poll do |msg2|
+  puts "Got message: #{msg2.body}"
+end
+
+
+
+=begin
 (bucket_name, file_name) = ARGV
 unless bucket_name && file_name
   puts "Usage: upload_file.rb <BUCKET_NAME> <FILE_NAME>"
@@ -67,3 +85,4 @@ puts "(press any key to delete the object)"
 $stdin.getc
 
 o.delete
+=end
