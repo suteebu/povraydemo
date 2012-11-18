@@ -1,0 +1,75 @@
+light_source {
+	<-10,12,5>
+	color rgb <1.5,1.5,1>*1.2
+	area_light <0.3,0,0>,<0,0.3,0>,5,5 circular orient jitter
+}
+light_source {
+	<0,5,-10>
+	color rgb <0.2,0.2,0.3>*1.2
+	shadowless
+}
+light_source {
+	<5,10,-5>
+	color rgb <0.2,0.2,0.3>*1.2
+	shadowless
+}
+sky_sphere {
+	pigment {
+		gradient y
+		color_map {
+			[0.0 color rgb <0.8,0.8,0.8>]
+			[0.4 color rgb <0,0,1>]
+			[1.0 color rgb <0,0,0.3>]
+		}
+	}
+}
+plane {
+	y,-0.25
+	texture { black_texture }
+}
+plane {
+	y,0
+	pigment {
+		color rgbf <0.5,1,0.8,0.99>
+	}
+	finish {
+		ambient 0
+		diffuse 2
+		brilliance 1.5
+		specular 0.8 roughness 0.03
+		reflection {
+			0,1
+			fresnel on        
+		}
+		conserve_energy
+	}
+	normal {
+		average
+		normal_map {
+			[0.5 bumps 0.9 scale <0.005,0.01,0.01> rotate <0,-60,0>]
+			[0.5 bumps 0.4 scale 0.003]
+		}
+	}
+	interior {
+		ior 1.33
+		fade_power 2
+		fade_distance 0.1
+	}
+}
+plane {
+	y,-0.1
+	pigment {
+		granite
+		color_map {
+			[0.0 color rgbt <0.9,0.8,0.6,1>]
+			[0.5 color rgbt <0.9,0.8,0.6,1>]
+			[1.0 color rgbt <0.9,0.8,0.6,0.5>]
+		}
+		scale 2
+	}
+	finish {
+		ambient 0.5 diffuse 0
+	}
+}
+	
+	
