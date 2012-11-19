@@ -6,10 +6,10 @@ require 'yaml'
 require 'aws-sdk'
 require 'pp'
 
-#this file has my AWS access key and private key
-config_file = File.join(File.dirname(__FILE__),
-                        "config.yml")
+# This file has my AWS access key and private key
+config_file = File.join(File.dirname(__FILE__), "config.yml")
 
+# IF CONFIG FILE DOESN'T EXIST, EXIT
 unless File.exist?(config_file)
   puts <<END
 To run the samples, put your credentials in config.yml as follows:
@@ -21,8 +21,10 @@ END
   exit 1
 end
 
+# LOAD CONFIG FILE
 config = YAML.load(File.read(config_file))
 
+# IF CONFIG FILE IS FORMATTED INCORRECTLY, EXIT
 unless config.kind_of?(Hash)
   puts <<END
 config.yml is formatted incorrectly.  Please use the following format:
@@ -34,15 +36,16 @@ END
   exit 1
 end
 
+# SET CONFIG SETTINGS
 AWS.config(config)
 
-# Creating JuliaIsleQueue
+# CREATE JULIA ISLE QUEUE
 sqs = AWS::SQS.new
 queue = sqs.queues.create("JuliaIsleQueue")
 puts "Created JuliaIsleQueue"
 pp sqs.queues.collect(&:url)
 
-# Construct POV frames for movie
+# QUEUE POV-RAY FRAMES FOR MOVIES
 # TO DO: Consider making these arguments of the original povraydemo-server.rb call
 
 # starting position
@@ -56,7 +59,7 @@ loc_y_f =  0.25
 loc_z_f = -1.0
 
 # iterate through frames
-duration   = 5 # seconds
+duration   = 0.1 # seconds
 fps        = 30
 num_frames = (duration * fps).ceil #returns Integer ceiling
 
@@ -192,11 +195,20 @@ end
 
 # CHECK QUEUE LENGTH PERIODICALLY AND SEE WHAT SPOT INSTANCES HAVE CHECKED IN FOR DUTY
 
-#sleep(5)
-#puts "Approx Number of messages: #{queue.approximate_number_of_messages}"
+count_empty = 0
+while count_empty < 3 do
+  msgs_left = queue.approximate_number_of_messages
+  if msgs_left == 0 then
+    count_empty += 1
+  end
+  puts "Approx number of msgs left: #{queue.approximate_number_of_messages}"
+  sleep(5)
+end
 
-}
+
+
+
 
 puts "********** DONE! **********"
 
-puts "********** RUN povraydemo-client.rb **********
+puts "********** RUN povraydemo-client.rb **********"
