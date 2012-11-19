@@ -17,5 +17,5 @@ SSH into: ubuntu@$public_hostname
 
 EOF
 
-cd /home/ubuntu/povraydemo
-ruby povraydemo-client.rb
+#cd /home/ubuntu/povraydemo
+ruby /home/ubuntu/povraydemo/povraydemo-client.rb
