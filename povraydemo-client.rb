@@ -36,7 +36,7 @@ end
 
 AWS.config(config)
 
-### READ FROM SQS QEUEU
+### READ FROM SQS QUEUE
 
 # Accessing JuliaIsleQueue
 sqs = AWS::SQS.new
@@ -56,9 +56,9 @@ else
   puts "Using S3 bucket #{b.name} in #{b.location_constraint}."
 end
 
+# Creating a checking file token in the S3 bucket to indicate I'm working
 checkin_file_name = "client_checkin_" + Time.new.to_i.to_s
 puts "Writing checkin file in S3: #{checkin_file_name}"
-# check in to s3
 o_checkin_file = b.objects[checkin_file_name]
 o_checkin_file.write('Checking in for duty!')
 
@@ -96,6 +96,10 @@ queue.poll(:idle_timeout => 10) {|msg|
 
 #  puts "Done."
 }
+
+# rending movie
+#fmpeg -qscale 5 -r 24 -b 64k -i frame%03d.png movie.mp4
+
 
 puts "********** DONE! **********"
 
