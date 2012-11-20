@@ -6,8 +6,6 @@ require 'yaml'
 require 'aws-sdk'
 require 'pp'
 
-puts __FILE__
-
 #this file has my AWS access key and private key
 config_file = File.join(File.dirname(__FILE__),
                         "config.yml")
@@ -38,20 +36,14 @@ end
 
 AWS.config(config)
 
-### FOOLING AROUND WITH SQS QUEUES
-
 # Creating JuliaIsleQueue
-
 sqs = AWS::SQS.new
 queue = sqs.queues.create("JuliaIsleQueue")
 puts "Created JuliaIsleQueue"
 pp sqs.queues.collect(&:url)
 
-#Populate JuliaIsleQueue
-#msg = queue.send_message("Test")
-#puts "Sent message: #{msg.id}"
-
-#construct POV frames for movie
+# Construct POV frames for movie
+# TO DO: Consider making these arguments of the original povraydemo-server.rb call
 
 # starting position
 loc_x_0 = -1.5
@@ -60,20 +52,20 @@ loc_z_0 = -1.0
 
 # ending position
 loc_x_f =  1.5
-loc_y_f =  1
+loc_y_f =  0.25
 loc_z_f = -1.0
 
 # iterate through frames
-duration   = 0.1 # seconds
+duration   = 5 # seconds
 fps        = 30
-num_frames = duration * fps
+num_frames = (duration * fps).ceil #returns Integer ceiling
+
+puts "\n"
+puts "********** QUEUEING POV-RAY FRAMES (#{num_frames} total) **********"
 
 loc_x = Array.new
 loc_y = Array.new
 loc_z = Array.new
-
-puts "\n"
-puts "********** QUEUEING POV-RAY FRAMES (#{num_frames} total) **********"
 
 for f in 0..num_frames
   loc_x[f] = loc_x_0 + (loc_x_f - loc_x_0) * f / num_frames
@@ -83,7 +75,7 @@ for f in 0..num_frames
   location_text = "location <#{loc_x[f]},#{loc_y[f]},#{loc_z[f]}>"
 
   num_zeros = "#{num_frames}".length - "#{f}".length
-  frame_num_text = "000" + "#{f}"
+  frame_num_text = "0"*num_zeros + "#{f}"
 
   header = "/* frame#{frame_num_text} */"
   povpart1 = File.read("juliaisle.pov.fragment1")
@@ -98,21 +90,23 @@ for f in 0..num_frames
 
   povfull = header + "\n" + povpart1 + "\n" + povcamera + "\n" + povpart2
   msg = queue.send_message(povfull)
-  puts "Queued frame #{f}: #{location_text}"
+  puts "Queued frame#{frame_num_text}: #{location_text}"
 end
 
+# CREATING A BUCKET FOR THE FILES TO BE SAVED TO
+s3 = AWS::S3.new(:s3_endpoint => "s3-us-west-2.amazonaws.com")
+# create a bucket
+bucket_name = "stephee-povraydemo"
+b = s3.buckets[bucket_name]
+# create the bucket if it doesn't exist
+if not b.exists? then
+  b = s3.buckets.create(bucket_name)
+  puts "S3 bucket #{b.name} created in #{b.location_constraint}."
+else
+  puts "Using S3 bucket #{b.name} in #{b.location_constraint}."
+end
 
-# TAKE ONE QUEUE ITEM AND RENDER IT
-queue.receive_message {|msg|
-  # print header line of pov file
-  header = msg.body.split("\n")[0]
-  puts "Got message: #{header}"
-  file_name = header.scan(/\/\*\s*(\w*)\s*\*\//)[0][0] + ".pov"
-  puts "Got filename: #{file_name}"
-  File.open(file_name, 'w') {|f| f.write(msg.body) }
-  puts "Rendering file..."
-  `povray -h200 -w200 #{file_name}`
-}
+# DEPLOY SPOT INSTANCES AND GIVE THEM BUCKET NAME
 
 
 =begin
@@ -196,46 +190,13 @@ end
 
 
 
+# CHECK QUEUE LENGTH PERIODICALLY AND SEE WHAT SPOT INSTANCES HAVE CHECKED IN FOR DUTY
+
 #sleep(5)
 #puts "Approx Number of messages: #{queue.approximate_number_of_messages}"
 
+}
 
-=begin
-queue.poll do |msg|
-  # print header line of pov file
-  header = msg.body.split("\n")[0]
-  puts "Got message: #{header}"
-end
-=end
+puts "********** DONE! **********"
 
-
-=begin
-(bucket_name, file_name) = ARGV
-unless bucket_name && file_name
-  puts "Usage: upload_file.rb <BUCKET_NAME> <FILE_NAME>"
-  exit 1
-end
-
-# get an instance of the S3 interface using the default configuration
-s3 = AWS::S3.new
-
-# create a bucket
-b = s3.buckets.create(bucket_name)
-
-# upload a file
-basename = File.basename(file_name)
-o = b.objects[basename]
-o.write(:file => file_name)
-
-puts "Uploaded #{file_name} to:"
-puts o.public_url
-
-# generate a presigned URL
-puts "\nUse this URL to download the file:"
-puts o.url_for(:read)
-
-puts "(press any key to delete the object)"
-$stdin.getc
-
-o.delete
-=end
+puts "********** RUN povraydemo-client.rb **********
