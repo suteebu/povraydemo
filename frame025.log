@@ -1,2228 +1,0 @@
-povray: This is a RELEASE CANDIDATE version of POV-Ray. General distribution is discouraged.
-povray: cannot open the user configuration file /home/ubuntu/.povray/3.7/povray.conf: No such file or directory
-Persistence of Vision(tm) Ray Tracer Version 3.7.0.RC6 (g++ 4.6 @
- x86_64-unknown-linux-gnu)
-This is a release candidate of POV-Ray version 3.7.0.
-General distribution is strongly discouraged.
-
-POV-Ray is based on DKBTrace 2.12 by David K. Buck & Aaron A. Collins
-Copyright 1991-2003 Persistence of Vision Team
-Copyright 2003-2011 Persistence of Vision Raytracer Pty. Ltd.
-
-Primary POV-Ray 3.7 Architects/Developers: (Alphabetically)
-  Chris Cason         Thorsten Froehlich  Christoph Lipka   
-
-With Assistance From: (Alphabetically)
-  Nicolas Calimet     James Holsenback    Christoph Hormann   Nathan Kopp       
-  Juha Nieminen     
-
-Past Contributors: (Alphabetically)
-  Steve Anger         Eric Barish         Dieter Bayer        David K. Buck     
-  Nicolas Calimet     Chris Cason         Aaron A. Collins    Chris Dailey      
-  Steve Demlow        Andreas Dilger      Alexander Enzmann   Dan Farmer        
-  Thorsten Froehlich  Mark Gordon         James Holsenback    Christoph Hormann 
-  Mike Hough          Chris Huff          Kari Kivisalo       Nathan Kopp       
-  Lutz Kretzschmar    Christoph Lipka     Jochen Lippert      Pascal Massimino  
-  Jim McElhiney       Douglas Muir        Juha Nieminen       Ron Parker        
-  Bill Pulver         Eduard Schwan       Wlodzimierz Skiba   Robert Skinner    
-  Yvo Smellenbergh    Zsolt Szalavari     Scott Taylor        Massimo Valentini 
-  Timothy Wegner      Drew Wells          Chris Young       
-
-Other contributors are listed in the documentation.
-
-Support libraries used by POV-Ray:
-  ZLib 1.2.3.4, Copyright 1995-1998 Jean-loup Gailly and Mark Adler
-  LibPNG 1.2.46, Copyright 1998-2002 Glenn Randers-Pehrson
-  LibJPEG 80, Copyright 1998 Thomas G. Lane
-  LibTIFF 3.9.5, Copyright 1988-1997 Sam Leffler, 1991-1997 SGI
-  Boost 1.46, http://www.boost.org/
-
-Parser Options
-  Input file: frame025.pov
-  Remove bounds........On 
-  Split unions.........Off
-  Library paths:
-    /usr/local/share/povray-3.7
-    /usr/local/share/povray-3.7/ini
-    /usr/local/share/povray-3.7/include
-  Clock value:    0.000  (Animation off)
-Image Output Options
-  Image resolution.....500 by 500 (rows 1 to 500, columns 1 to 500).
-  Output file..........frame025.png, 24 bpp PNG
-  Dithering............Off
-  Graphic display......Off
-  Mosaic preview.......Off
-  Continued trace......Off
-Information Output Options
-  All Streams to console..........On 
-  Debug Stream to console.........On 
-  Fatal Stream to console.........On 
-  Render Stream to console........On 
-  Statistics Stream to console....On 
-  Warning Stream to console.......On 
-==== [Parsing...] ==========================================================
-computing 1000x500 height field...
-
-
-0% completed
-0% completed
-1% completed
-1% completed
-1% completed
-1% completed
-1% completed
-2% completed
-2% completed
-Parsing 4211K tokens
-2% completed
-2% completed
-2% completed
-3% completed
-3% completed
-3% completed
-3% completed
-3% completed
-4% completed
-4% completed
-Parsing 8450K tokens
-4% completed
-4% completed
-4% completed
-5% completed
-5% completed
-5% completed
-5% completed
-5% completed
-6% completed
-Parsing 12695K tokens
-6% completed
-6% completed
-6% completed
-6% completed
-7% completed
-7% completed
-7% completed
-7% completed
-7% completed
-8% completed
-Parsing 16939K tokens
-8% completed
-8% completed
-8% completed
-8% completed
-9% completed
-9% completed
-9% completed
-9% completed
-9% completed
-10% completed
-Parsing 21190K tokens
-10% completed
-10% completed
-10% completed
-10% completed
-11% completed
-11% completed
-11% completed
-11% completed
-11% completed
-12% completed
-Parsing 25452K tokens
-12% completed
-12% completed
-12% completed
-12% completed
-13% completed
-13% completed
-13% completed
-13% completed
-13% completed
-Parsing 29704K tokens
-14% completed
-14% completed
-14% completed
-14% completed
-14% completed
-15% completed
-15% completed
-15% completed
-15% completed
-Parsing 33943K tokens
-15% completed
-16% completed
-16% completed
-16% completed
-16% completed
-16% completed
-17% completed
-17% completed
-17% completed
-17% completed
-Parsing 38190K tokens
-17% completed
-18% completed
-18% completed
-18% completed
-18% completed
-18% completed
-19% completed
-19% completed
-19% completed
-Parsing 42449K tokens
-19% completed
-19% completed
-20% completed
-20% completed
-20% completed
-20% completed
-20% completed
-21% completed
-21% completed
-Parsing 46721K tokens
-21% completed
-21% completed
-21% completed
-22% completed
-22% completed
-22% completed
-22% completed
-22% completed
-Parsing 51010K tokens
-23% completed
-23% completed
-23% completed
-23% completed
-23% completed
-24% completed
-24% completed
-24% completed
-Parsing 55299K tokens
-24% completed
-24% completed
-25% completed
-25% completed
-25% completed
-25% completed
-25% completed
-26% completed
-Parsing 59591K tokens
-26% completed
-26% completed
-26% completed
-26% completed
-27% completed
-27% completed
-27% completed
-27% completed
-Parsing 63878K tokens
-27% completed
-28% completed
-28% completed
-28% completed
-28% completed
-28% completed
-29% completed
-29% completed
-Parsing 68172K tokens
-29% completed
-29% completed
-29% completed
-30% completed
-30% completed
-30% completed
-30% completed
-30% completed
-Parsing 72471K tokens
-31% completed
-31% completed
-31% completed
-31% completed
-31% completed
-32% completed
-32% completed
-Parsing 76770K tokens
-32% completed
-32% completed
-32% completed
-33% completed
-33% completed
-33% completed
-33% completed
-Parsing 81094K tokens
-33% completed
-34% completed
-34% completed
-34% completed
-34% completed
-34% completed
-Parsing 85419K tokens
-35% completed
-35% completed
-35% completed
-35% completed
-35% completed
-36% completed
-Parsing 89773K tokens
-36% completed
-36% completed
-36% completed
-36% completed
-37% completed
-Parsing 94155K tokens
-37% completed
-37% completed
-37% completed
-37% completed
-38% completed
-Parsing 98516K tokens
-38% completed
-38% completed
-38% completed
-38% completed
-Parsing 102881K tokens
-39% completed
-39% completed
-39% completed
-39% completed
-39% completed
-Parsing 107245K tokens
-40% completed
-40% completed
-40% completed
-40% completed
-Parsing 111629K tokens
-40% completed
-41% completed
-41% completed
-Parsing 116033K tokens
-41% completed
-41% completed
-41% completed
-42% completed
-Parsing 120423K tokens
-42% completed
-42% completed
-42% completed
-Parsing 124842K tokens
-42% completed
-43% completed
-43% completed
-43% completed
-Parsing 129254K tokens
-43% completed
-43% completed
-44% completed
-Parsing 133663K tokens
-44% completed
-44% completed
-44% completed
-44% completed
-Parsing 138060K tokens
-45% completed
-45% completed
-45% completed
-Parsing 142474K tokens
-45% completed
-45% completed
-46% completed
-46% completed
-Parsing 146866K tokens
-46% completed
-46% completed
-46% completed
-Parsing 151265K tokens
-47% completed
-47% completed
-47% completed
-47% completed
-Parsing 155669K tokens
-47% completed
-48% completed
-48% completed
-Parsing 160071K tokens
-48% completed
-48% completed
-48% completed
-Parsing 164470K tokens
-49% completed
-49% completed
-49% completed
-49% completed
-Parsing 168835K tokens
-49% completed
-50% completed
-50% completed
-Parsing 173254K tokens
-50% completed
-50% completed
-50% completed
-Parsing 177656K tokens
-51% completed
-51% completed
-51% completed
-51% completed
-Parsing 182062K tokens
-51% completed
-52% completed
-52% completed
-Parsing 186492K tokens
-52% completed
-52% completed
-52% completed
-Parsing 190916K tokens
-53% completed
-53% completed
-53% completed
-53% completed
-Parsing 195325K tokens
-53% completed
-54% completed
-54% completed
-Parsing 199727K tokens
-54% completed
-54% completed
-54% completed
-55% completed
-Parsing 204114K tokens
-55% completed
-55% completed
-55% completed
-Parsing 208543K tokens
-55% completed
-56% completed
-56% completed
-56% completed
-Parsing 212930K tokens
-56% completed
-56% completed
-57% completed
-Parsing 217324K tokens
-57% completed
-57% completed
-57% completed
-57% completed
-Parsing 221708K tokens
-58% completed
-58% completed
-58% completed
-Parsing 226125K tokens
-58% completed
-58% completed
-59% completed
-59% completed
-Parsing 230534K tokens
-59% completed
-59% completed
-59% completed
-Parsing 234941K tokens
-60% completed
-60% completed
-60% completed
-60% completed
-Parsing 239323K tokens
-60% completed
-61% completed
-61% completed
-61% completed
-61% completed
-Parsing 243677K tokens
-61% completed
-62% completed
-62% completed
-62% completed
-Parsing 248044K tokens
-62% completed
-62% completed
-63% completed
-63% completed
-63% completed
-Parsing 252410K tokens
-63% completed
-63% completed
-64% completed
-64% completed
-64% completed
-Parsing 256767K tokens
-64% completed
-64% completed
-65% completed
-65% completed
-65% completed
-65% completed
-Parsing 261109K tokens
-65% completed
-66% completed
-66% completed
-66% completed
-66% completed
-66% completed
-Parsing 265451K tokens
-67% completed
-67% completed
-67% completed
-67% completed
-67% completed
-68% completed
-68% completed
-Parsing 269740K tokens
-68% completed
-68% completed
-68% completed
-69% completed
-69% completed
-69% completed
-69% completed
-Parsing 273994K tokens
-69% completed
-70% completed
-70% completed
-70% completed
-70% completed
-70% completed
-71% completed
-Parsing 278226K tokens
-71% completed
-71% completed
-71% completed
-71% completed
-72% completed
-72% completed
-72% completed
-72% completed
-Parsing 282505K tokens
-72% completed
-73% completed
-73% completed
-73% completed
-73% completed
-73% completed
-74% completed
-74% completed
-Parsing 286807K tokens
-74% completed
-74% completed
-74% completed
-75% completed
-75% completed
-75% completed
-75% completed
-75% completed
-Parsing 291111K tokens
-76% completed
-76% completed
-76% completed
-76% completed
-76% completed
-77% completed
-77% completed
-77% completed
-Parsing 295398K tokens
-77% completed
-77% completed
-78% completed
-78% completed
-78% completed
-78% completed
-78% completed
-79% completed
-79% completed
-Parsing 299682K tokens
-79% completed
-79% completed
-79% completed
-80% completed
-80% completed
-80% completed
-80% completed
-80% completed
-81% completed
-Parsing 303966K tokens
-81% completed
-81% completed
-81% completed
-81% completed
-82% completed
-82% completed
-82% completed
-82% completed
-82% completed
-Parsing 308233K tokens
-83% completed
-83% completed
-83% completed
-83% completed
-83% completed
-84% completed
-84% completed
-84% completed
-84% completed
-Parsing 312484K tokens
-84% completed
-85% completed
-85% completed
-85% completed
-85% completed
-85% completed
-86% completed
-86% completed
-86% completed
-Parsing 316734K tokens
-86% completed
-86% completed
-87% completed
-87% completed
-87% completed
-87% completed
-87% completed
-88% completed
-88% completed
-88% completed
-Parsing 320983K tokens
-88% completed
-88% completed
-89% completed
-89% completed
-89% completed
-89% completed
-89% completed
-90% completed
-90% completed
-Parsing 325235K tokens
-90% completed
-90% completed
-90% completed
-91% completed
-91% completed
-91% completed
-91% completed
-91% completed
-92% completed
-92% completed
-Parsing 329469K tokens
-92% completed
-92% completed
-92% completed
-93% completed
-93% completed
-93% completed
-93% completed
-93% completed
-94% completed
-94% completed
-Parsing 333715K tokens
-94% completed
-94% completed
-94% completed
-95% completed
-95% completed
-95% completed
-95% completed
-95% completed
-96% completed
-96% completed
-Parsing 337970K tokens
-96% completed
-96% completed
-96% completed
-97% completed
-97% completed
-97% completed
-97% completed
-97% completed
-98% completed
-98% completed
-Parsing 342204K tokens
-98% completed
-98% completed
-98% completed
-99% completed
-99% completed
-99% completed
-99% completed
-99% completed
-100% completed
-100% completed
-100% completed
-setting up grid vertices...
-
-
-1% completed
-1% completed
-1% completed
-1% completed
-Parsing 346448K tokens
-1% completed
-2% completed
-2% completed
-2% completed
-2% completed
-2% completed
-3% completed
-3% completed
-3% completed
-3% completed
-3% completed
-4% completed
-4% completed
-4% completed
-4% completed
-4% completed
-5% completed
-5% completed
-5% completed
-5% completed
-5% completed
-6% completed
-6% completed
-6% completed
-6% completed
-6% completed
-7% completed
-7% completed
-7% completed
-7% completed
-7% completed
-8% completed
-8% completed
-8% completed
-8% completed
-8% completed
-9% completed
-9% completed
-9% completed
-9% completed
-9% completed
-10% completed
-10% completed
-10% completed
-10% completed
-10% completed
-11% completed
-11% completed
-11% completed
-11% completed
-11% completed
-12% completed
-12% completed
-12% completed
-12% completed
-12% completed
-13% completed
-13% completed
-13% completed
-13% completed
-13% completed
-14% completed
-14% completed
-14% completed
-14% completed
-14% completed
-15% completed
-15% completed
-15% completed
-15% completed
-15% completed
-16% completed
-16% completed
-16% completed
-16% completed
-16% completed
-17% completed
-17% completed
-17% completed
-17% completed
-17% completed
-18% completed
-18% completed
-18% completed
-18% completed
-18% completed
-19% completed
-19% completed
-19% completed
-19% completed
-19% completed
-20% completed
-20% completed
-20% completed
-20% completed
-20% completed
-21% completed
-21% completed
-21% completed
-21% completed
-21% completed
-22% completed
-22% completed
-22% completed
-22% completed
-22% completed
-23% completed
-23% completed
-23% completed
-23% completed
-23% completed
-24% completed
-24% completed
-24% completed
-24% completed
-24% completed
-25% completed
-25% completed
-25% completed
-25% completed
-25% completed
-26% completed
-26% completed
-26% completed
-26% completed
-26% completed
-27% completed
-27% completed
-27% completed
-27% completed
-27% completed
-28% completed
-28% completed
-Parsing 350965K tokens
-28% completed
-28% completed
-28% completed
-29% completed
-29% completed
-29% completed
-29% completed
-29% completed
-30% completed
-30% completed
-30% completed
-30% completed
-30% completed
-31% completed
-31% completed
-31% completed
-31% completed
-31% completed
-32% completed
-32% completed
-32% completed
-32% completed
-32% completed
-33% completed
-33% completed
-33% completed
-33% completed
-33% completed
-34% completed
-34% completed
-34% completed
-34% completed
-34% completed
-35% completed
-35% completed
-35% completed
-35% completed
-35% completed
-36% completed
-36% completed
-36% completed
-36% completed
-36% completed
-37% completed
-37% completed
-37% completed
-37% completed
-37% completed
-38% completed
-38% completed
-38% completed
-38% completed
-38% completed
-39% completed
-39% completed
-39% completed
-39% completed
-39% completed
-40% completed
-40% completed
-40% completed
-40% completed
-40% completed
-41% completed
-41% completed
-41% completed
-41% completed
-41% completed
-42% completed
-42% completed
-42% completed
-42% completed
-42% completed
-43% completed
-43% completed
-43% completed
-43% completed
-43% completed
-44% completed
-44% completed
-44% completed
-44% completed
-44% completed
-45% completed
-45% completed
-45% completed
-45% completed
-45% completed
-46% completed
-46% completed
-46% completed
-46% completed
-46% completed
-47% completed
-47% completed
-47% completed
-47% completed
-47% completed
-48% completed
-48% completed
-48% completed
-48% completed
-48% completed
-49% completed
-49% completed
-49% completed
-49% completed
-49% completed
-50% completed
-50% completed
-50% completed
-50% completed
-50% completed
-51% completed
-51% completed
-51% completed
-51% completed
-51% completed
-52% completed
-52% completed
-52% completed
-52% completed
-52% completed
-53% completed
-53% completed
-53% completed
-53% completed
-53% completed
-54% completed
-54% completed
-54% completed
-54% completed
-Parsing 355474K tokens
-54% completed
-55% completed
-55% completed
-55% completed
-55% completed
-55% completed
-56% completed
-56% completed
-56% completed
-56% completed
-56% completed
-57% completed
-57% completed
-57% completed
-57% completed
-57% completed
-58% completed
-58% completed
-58% completed
-58% completed
-58% completed
-59% completed
-59% completed
-59% completed
-59% completed
-59% completed
-60% completed
-60% completed
-60% completed
-60% completed
-60% completed
-61% completed
-61% completed
-61% completed
-61% completed
-61% completed
-62% completed
-62% completed
-62% completed
-62% completed
-62% completed
-63% completed
-63% completed
-63% completed
-63% completed
-63% completed
-64% completed
-64% completed
-64% completed
-64% completed
-64% completed
-65% completed
-65% completed
-65% completed
-65% completed
-65% completed
-66% completed
-66% completed
-66% completed
-66% completed
-66% completed
-67% completed
-67% completed
-67% completed
-67% completed
-67% completed
-68% completed
-68% completed
-68% completed
-68% completed
-68% completed
-69% completed
-69% completed
-69% completed
-69% completed
-69% completed
-70% completed
-70% completed
-70% completed
-70% completed
-70% completed
-71% completed
-71% completed
-71% completed
-71% completed
-71% completed
-72% completed
-72% completed
-72% completed
-72% completed
-72% completed
-73% completed
-73% completed
-73% completed
-73% completed
-73% completed
-74% completed
-74% completed
-74% completed
-74% completed
-74% completed
-75% completed
-75% completed
-75% completed
-75% completed
-75% completed
-76% completed
-76% completed
-76% completed
-76% completed
-76% completed
-77% completed
-77% completed
-77% completed
-77% completed
-77% completed
-78% completed
-78% completed
-78% completed
-78% completed
-78% completed
-79% completed
-79% completed
-79% completed
-79% completed
-79% completed
-80% completed
-80% completed
-80% completed
-80% completed
-80% completed
-81% completed
-81% completed
-Parsing 359986K tokens
-81% completed
-81% completed
-81% completed
-82% completed
-82% completed
-82% completed
-82% completed
-82% completed
-83% completed
-83% completed
-83% completed
-83% completed
-83% completed
-84% completed
-84% completed
-84% completed
-84% completed
-84% completed
-85% completed
-85% completed
-85% completed
-85% completed
-85% completed
-86% completed
-86% completed
-86% completed
-86% completed
-86% completed
-87% completed
-87% completed
-87% completed
-87% completed
-87% completed
-88% completed
-88% completed
-88% completed
-88% completed
-88% completed
-89% completed
-89% completed
-89% completed
-89% completed
-89% completed
-90% completed
-90% completed
-90% completed
-90% completed
-90% completed
-91% completed
-91% completed
-91% completed
-91% completed
-91% completed
-92% completed
-92% completed
-92% completed
-92% completed
-92% completed
-93% completed
-93% completed
-93% completed
-93% completed
-93% completed
-94% completed
-94% completed
-94% completed
-94% completed
-94% completed
-95% completed
-95% completed
-95% completed
-95% completed
-95% completed
-96% completed
-96% completed
-96% completed
-96% completed
-96% completed
-97% completed
-97% completed
-97% completed
-97% completed
-97% completed
-98% completed
-98% completed
-98% completed
-98% completed
-98% completed
-99% completed
-99% completed
-99% completed
-99% completed
-99% completed
-100% completed
-100% completed
-100% completed
-setting up surface normals...
-
-
-1% completed
-1% completed
-1% completed
-1% completed
-1% completed
-2% completed
-2% completed
-2% completed
-2% completed
-2% completed
-Parsing 364430K tokens
-3% completed
-3% completed
-3% completed
-3% completed
-3% completed
-4% completed
-4% completed
-4% completed
-4% completed
-4% completed
-5% completed
-5% completed
-5% completed
-5% completed
-5% completed
-6% completed
-6% completed
-6% completed
-6% completed
-6% completed
-7% completed
-7% completed
-7% completed
-7% completed
-7% completed
-8% completed
-8% completed
-8% completed
-8% completed
-8% completed
-9% completed
-9% completed
-9% completed
-9% completed
-9% completed
-10% completed
-10% completed
-10% completed
-10% completed
-10% completed
-Parsing 368692K tokens
-11% completed
-11% completed
-11% completed
-11% completed
-11% completed
-12% completed
-12% completed
-12% completed
-12% completed
-12% completed
-13% completed
-13% completed
-13% completed
-13% completed
-13% completed
-14% completed
-14% completed
-14% completed
-14% completed
-14% completed
-15% completed
-15% completed
-15% completed
-15% completed
-15% completed
-16% completed
-16% completed
-16% completed
-16% completed
-16% completed
-17% completed
-17% completed
-17% completed
-17% completed
-17% completed
-18% completed
-18% completed
-18% completed
-18% completed
-18% completed
-Parsing 372964K tokens
-19% completed
-19% completed
-19% completed
-19% completed
-19% completed
-20% completed
-20% completed
-20% completed
-20% completed
-20% completed
-21% completed
-21% completed
-21% completed
-21% completed
-21% completed
-22% completed
-22% completed
-22% completed
-22% completed
-22% completed
-23% completed
-23% completed
-23% completed
-23% completed
-23% completed
-24% completed
-24% completed
-24% completed
-24% completed
-24% completed
-25% completed
-25% completed
-25% completed
-25% completed
-25% completed
-26% completed
-26% completed
-26% completed
-26% completed
-26% completed
-Parsing 377230K tokens
-27% completed
-27% completed
-27% completed
-27% completed
-27% completed
-28% completed
-28% completed
-28% completed
-28% completed
-28% completed
-29% completed
-29% completed
-29% completed
-29% completed
-29% completed
-30% completed
-30% completed
-30% completed
-30% completed
-30% completed
-31% completed
-31% completed
-31% completed
-31% completed
-31% completed
-32% completed
-32% completed
-32% completed
-32% completed
-32% completed
-33% completed
-33% completed
-33% completed
-33% completed
-33% completed
-34% completed
-34% completed
-34% completed
-34% completed
-Parsing 381492K tokens
-34% completed
-35% completed
-35% completed
-35% completed
-35% completed
-35% completed
-36% completed
-36% completed
-36% completed
-36% completed
-36% completed
-37% completed
-37% completed
-37% completed
-37% completed
-37% completed
-38% completed
-38% completed
-38% completed
-38% completed
-38% completed
-39% completed
-39% completed
-39% completed
-39% completed
-39% completed
-40% completed
-40% completed
-40% completed
-40% completed
-40% completed
-41% completed
-41% completed
-41% completed
-41% completed
-41% completed
-42% completed
-42% completed
-42% completed
-42% completed
-Parsing 385756K tokens
-42% completed
-43% completed
-43% completed
-43% completed
-43% completed
-43% completed
-44% completed
-44% completed
-44% completed
-44% completed
-44% completed
-45% completed
-45% completed
-45% completed
-45% completed
-45% completed
-46% completed
-46% completed
-46% completed
-46% completed
-46% completed
-47% completed
-47% completed
-47% completed
-47% completed
-47% completed
-48% completed
-48% completed
-48% completed
-48% completed
-48% completed
-49% completed
-49% completed
-49% completed
-49% completed
-49% completed
-50% completed
-50% completed
-50% completed
-50% completed
-Parsing 390020K tokens
-50% completed
-51% completed
-51% completed
-51% completed
-51% completed
-51% completed
-52% completed
-52% completed
-52% completed
-52% completed
-52% completed
-53% completed
-53% completed
-53% completed
-53% completed
-53% completed
-54% completed
-54% completed
-54% completed
-54% completed
-54% completed
-55% completed
-55% completed
-55% completed
-55% completed
-55% completed
-56% completed
-56% completed
-56% completed
-56% completed
-56% completed
-57% completed
-57% completed
-57% completed
-57% completed
-57% completed
-58% completed
-58% completed
-58% completed
-58% completed
-Parsing 394300K tokens
-58% completed
-59% completed
-59% completed
-59% completed
-59% completed
-59% completed
-60% completed
-60% completed
-60% completed
-60% completed
-60% completed
-61% completed
-61% completed
-61% completed
-61% completed
-61% completed
-62% completed
-62% completed
-62% completed
-62% completed
-62% completed
-63% completed
-63% completed
-63% completed
-63% completed
-63% completed
-64% completed
-64% completed
-64% completed
-64% completed
-64% completed
-65% completed
-65% completed
-65% completed
-65% completed
-65% completed
-66% completed
-66% completed
-66% completed
-66% completed
-Parsing 398564K tokens
-66% completed
-67% completed
-67% completed
-67% completed
-67% completed
-67% completed
-68% completed
-68% completed
-68% completed
-68% completed
-68% completed
-69% completed
-69% completed
-69% completed
-69% completed
-69% completed
-70% completed
-70% completed
-70% completed
-70% completed
-70% completed
-71% completed
-71% completed
-71% completed
-71% completed
-71% completed
-72% completed
-72% completed
-72% completed
-72% completed
-72% completed
-73% completed
-73% completed
-73% completed
-73% completed
-73% completed
-74% completed
-74% completed
-74% completed
-74% completed
-Parsing 402831K tokens
-74% completed
-75% completed
-75% completed
-75% completed
-75% completed
-75% completed
-76% completed
-76% completed
-76% completed
-76% completed
-76% completed
-77% completed
-77% completed
-77% completed
-77% completed
-77% completed
-78% completed
-78% completed
-78% completed
-78% completed
-78% completed
-79% completed
-79% completed
-79% completed
-79% completed
-79% completed
-80% completed
-80% completed
-80% completed
-80% completed
-80% completed
-81% completed
-81% completed
-81% completed
-81% completed
-81% completed
-82% completed
-82% completed
-82% completed
-82% completed
-Parsing 407092K tokens
-82% completed
-83% completed
-83% completed
-83% completed
-83% completed
-83% completed
-84% completed
-84% completed
-84% completed
-84% completed
-84% completed
-85% completed
-85% completed
-85% completed
-85% completed
-85% completed
-86% completed
-86% completed
-86% completed
-86% completed
-86% completed
-87% completed
-87% completed
-87% completed
-87% completed
-87% completed
-88% completed
-88% completed
-88% completed
-88% completed
-88% completed
-89% completed
-89% completed
-89% completed
-89% completed
-89% completed
-90% completed
-90% completed
-90% completed
-90% completed
-Parsing 411361K tokens
-90% completed
-91% completed
-91% completed
-91% completed
-91% completed
-91% completed
-92% completed
-92% completed
-92% completed
-92% completed
-92% completed
-93% completed
-93% completed
-93% completed
-93% completed
-93% completed
-94% completed
-94% completed
-94% completed
-94% completed
-94% completed
-95% completed
-95% completed
-95% completed
-95% completed
-95% completed
-96% completed
-96% completed
-96% completed
-96% completed
-96% completed
-97% completed
-97% completed
-97% completed
-97% completed
-97% completed
-98% completed
-98% completed
-98% completed
-98% completed
-Parsing 415628K tokens
-98% completed
-99% completed
-99% completed
-99% completed
-99% completed
-99% completed
-100% completed
-100% completed
-100% completed
-building triangle mesh...
-
-
-1% completed
-1% completed
-1% completed
-1% completed
-2% completed
-2% completed
-2% completed
-2% completed
-2% completed
-3% completed
-3% completed
-3% completed
-3% completed
-3% completed
-4% completed
-4% completed
-4% completed
-4% completed
-4% completed
-5% completed
-5% completed
-5% completed
-5% completed
-5% completed
-6% completed
-6% completed
-6% completed
-6% completed
-6% completed
-7% completed
-7% completed
-7% completed
-7% completed
-7% completed
-8% completed
-8% completed
-8% completed
-8% completed
-8% completed
-9% completed
-9% completed
-9% completed
-9% completed
-9% completed
-10% completed
-10% completed
-10% completed
-10% completed
-10% completed
-11% completed
-11% completed
-11% completed
-11% completed
-Parsing 420365K tokens
-11% completed
-12% completed
-12% completed
-12% completed
-12% completed
-12% completed
-13% completed
-13% completed
-13% completed
-13% completed
-13% completed
-14% completed
-14% completed
-14% completed
-14% completed
-14% completed
-15% completed
-15% completed
-15% completed
-15% completed
-15% completed
-16% completed
-16% completed
-16% completed
-16% completed
-16% completed
-17% completed
-17% completed
-17% completed
-17% completed
-17% completed
-18% completed
-18% completed
-18% completed
-18% completed
-18% completed
-19% completed
-19% completed
-19% completed
-19% completed
-19% completed
-20% completed
-20% completed
-20% completed
-20% completed
-20% completed
-21% completed
-21% completed
-21% completed
-21% completed
-21% completed
-22% completed
-22% completed
-22% completed
-22% completed
-22% completed
-23% completed
-23% completed
-23% completed
-23% completed
-23% completed
-24% completed
-24% completed
-24% completed
-24% completed
-24% completed
-Parsing 425134K tokens
-25% completed
-25% completed
-25% completed
-25% completed
-25% completed
-26% completed
-26% completed
-26% completed
-26% completed
-26% completed
-27% completed
-27% completed
-27% completed
-27% completed
-27% completed
-28% completed
-28% completed
-28% completed
-28% completed
-28% completed
-29% completed
-29% completed
-29% completed
-29% completed
-29% completed
-30% completed
-30% completed
-30% completed
-30% completed
-30% completed
-31% completed
-31% completed
-31% completed
-31% completed
-31% completed
-32% completed
-32% completed
-32% completed
-32% completed
-32% completed
-33% completed
-33% completed
-33% completed
-33% completed
-33% completed
-34% completed
-34% completed
-34% completed
-34% completed
-34% completed
-35% completed
-35% completed
-35% completed
-35% completed
-35% completed
-36% completed
-36% completed
-36% completed
-36% completed
-36% completed
-37% completed
-37% completed
-37% completed
-37% completed
-37% completed
-38% completed
-Parsing 429909K tokens
-38% completed
-38% completed
-38% completed
-38% completed
-39% completed
-39% completed
-39% completed
-39% completed
-39% completed
-40% completed
-40% completed
-40% completed
-40% completed
-40% completed
-41% completed
-41% completed
-41% completed
-41% completed
-41% completed
-42% completed
-42% completed
-42% completed
-42% completed
-42% completed
-43% completed
-43% completed
-43% completed
-43% completed
-43% completed
-44% completed
-44% completed
-44% completed
-44% completed
-44% completed
-45% completed
-45% completed
-45% completed
-45% completed
-45% completed
-46% completed
-46% completed
-46% completed
-46% completed
-46% completed
-47% completed
-47% completed
-47% completed
-47% completed
-47% completed
-48% completed
-48% completed
-48% completed
-48% completed
-48% completed
-49% completed
-49% completed
-49% completed
-49% completed
-49% completed
-50% completed
-50% completed
-50% completed
-50% completed
-50% completed
-51% completed
-51% completed
-51% completed
-51% completed
-Parsing 434733K tokens
-51% completed
-52% completed
-52% completed
-52% completed
-52% completed
-52% completed
-53% completed
-53% completed
-53% completed
-53% completed
-53% completed
-54% completed
-54% completed
-54% completed
-54% completed
-54% completed
-55% completed
-55% completed
-55% completed
-55% completed
-55% completed
-56% completed
-56% completed
-56% completed
-56% completed
-56% completed
-57% completed
-57% completed
-57% completed
-57% completed
-57% completed
-58% completed
-58% completed
-58% completed
-58% completed
-58% completed
-59% completed
-59% completed
-59% completed
-59% completed
-59% completed
-60% completed
-60% completed
-60% completed
-60% completed
-60% completed
-61% completed
-61% completed
-61% completed
-61% completed
-61% completed
-62% completed
-62% completed
-62% completed
-62% completed
-62% completed
-63% completed
-63% completed
-63% completed
-63% completed
-63% completed
-64% completed
-64% completed
-64% completed
-64% completed
-64% completed
-65% completed
-Parsing 439598K tokens
-65% completed
-65% completed
-65% completed
-65% completed
-66% completed
-66% completed
-66% completed
-66% completed
-66% completed
-67% completed
-67% completed
-67% completed
-67% completed
-67% completed
-68% completed
-68% completed
-68% completed
-68% completed
-68% completed
-69% completed
-69% completed
-69% completed
-69% completed
-69% completed
-70% completed
-70% completed
-70% completed
-70% completed
-70% completed
-71% completed
-71% completed
-71% completed
-71% completed
-71% completed
-72% completed
-72% completed
-72% completed
-72% completed
-72% completed
-73% completed
-73% completed
-73% completed
-73% completed
-73% completed
-74% completed
-74% completed
-74% completed
-74% completed
-74% completed
-75% completed
-75% completed
-75% completed
-75% completed
-75% completed
-76% completed
-76% completed
-76% completed
-76% completed
-76% completed
-77% completed
-77% completed
-77% completed
-77% completed
-77% completed
-78% completed
-78% completed
-78% completed
-78% completed
-Parsing 444452K tokens
-78% completed
-79% completed
-79% completed
-79% completed
-79% completed
-79% completed
-80% completed
-80% completed
-80% completed
-80% completed
-80% completed
-81% completed
-81% completed
-81% completed
-81% completed
-81% completed
-82% completed
-82% completed
-82% completed
-82% completed
-82% completed
-83% completed
-83% completed
-83% completed
-83% completed
-83% completed
-84% completed
-84% completed
-84% completed
-84% completed
-84% completed
-85% completed
-85% completed
-85% completed
-85% completed
-85% completed
-86% completed
-86% completed
-86% completed
-86% completed
-86% completed
-87% completed
-87% completed
-87% completed
-87% completed
-87% completed
-88% completed
-88% completed
-88% completed
-88% completed
-88% completed
-89% completed
-89% completed
-89% completed
-89% completed
-89% completed
-90% completed
-90% completed
-90% completed
-90% completed
-90% completed
-91% completed
-91% completed
-91% completed
-91% completed
-91% completed
-92% completed
-Parsing 449312K tokens
-92% completed
-92% completed
-92% completed
-92% completed
-93% completed
-93% completed
-93% completed
-93% completed
-93% completed
-94% completed
-94% completed
-94% completed
-94% completed
-94% completed
-95% completed
-95% completed
-95% completed
-95% completed
-95% completed
-96% completed
-96% completed
-96% completed
-96% completed
-96% completed
-97% completed
-97% completed
-97% completed
-97% completed
-97% completed
-98% completed
-98% completed
-98% completed
-98% completed
-98% completed
-99% completed
-99% completed
-99% completed
-99% completed
-99% completed
-100% completed
-100% completed
-100% completed
-rendering...  
-
-Parse Warning: assumed_gamma not specified, so gamma_correction is turned off
- for compatibility with this pre POV-Ray 3.7 scene. See the documentation for
- more details.
-Parse Warning: This scene did not contain a #version directive. Please be aware
- that as of POV-Ray 3.7, unless already specified via an INI option, a #version
- is expected as the first declaration in a scene file. POV-Ray may apply
- settings to some features that are intended to maintain compatibility with
- pre-3.7 scenes. You are strongly encouraged to add a #version statement to the
- scene to make your intent clear. Future versions of POV-Ray may make the
- presence of a #version statement mandatory.
-----------------------------------------------------------------------------
-Parser Statistics
-----------------------------------------------------------------------------
-Finite Objects:            1
-Infinite Objects:          3
-Light Sources:             3
-Total:                     7
-----------------------------------------------------------------------------
-Parser Time
-  Parse Time:       0 hours  1 minutes 49 seconds (109.904 seconds)
-              using 1 thread(s) with 109.902 CPU-seconds total
-  Bounding Time:    0 hours  0 minutes  0 seconds (0.000 seconds)
-              using 1 thread(s) with 0.000 CPU-seconds total
-----------------------------------------------------------------------------
-Render Options
-  Quality:  9
-  Bounding boxes.......On   Bounding threshold: 3
-  Antialiasing.........Off
-==== [Rendering...] ========================================================
-Rendered 1024 of 250000 pixels (0%)Rendered 2048 of 250000 pixels (0%)Rendered 3072 of 250000 pixels (1%)Rendered 4096 of 250000 pixels (1%)Rendered 5120 of 250000 pixels (2%)Rendered 6144 of 250000 pixels (2%)Rendered 7168 of 250000 pixels (2%)Rendered 8192 of 250000 pixels (3%)Rendered 9216 of 250000 pixels (3%)Rendered 10240 of 250000 pixels (4%)Rendered 11264 of 250000 pixels (4%)Rendered 12288 of 250000 pixels (4%)Rendered 13312 of 250000 pixels (5%)Rendered 13952 of 250000 pixels (5%)Rendered 14976 of 250000 pixels (5%)Rendered 16000 of 250000 pixels (6%)Rendered 17024 of 250000 pixels (6%)Rendered 18048 of 250000 pixels (7%)Rendered 19072 of 250000 pixels (7%)Rendered 20096 of 250000 pixels (8%)Rendered 21120 of 250000 pixels (8%)Rendered 22144 of 250000 pixels (8%)Rendered 23168 of 250000 pixels (9%)Rendered 24192 of 250000 pixels (9%)Rendered 25216 of 250000 pixels (10%)Rendered 26240 of 250000 pixels (10%)Rendered 27264 of 250000 pixels (10%)Rendered 28288 of 250000 pixels (11%)Rendered 29312 of 250000 pixels (11%)Rendered 30336 of 250000 pixels (12%)Rendered 30976 of 250000 pixels (12%)Rendered 32000 of 250000 pixels (12%)Rendered 33024 of 250000 pixels (13%)Rendered 34048 of 250000 pixels (13%)Rendered 35072 of 250000 pixels (14%)Rendered 36096 of 250000 pixels (14%)Rendered 37120 of 250000 pixels (14%)Rendered 38144 of 250000 pixels (15%)Rendered 39168 of 250000 pixels (15%)Rendered 40192 of 250000 pixels (16%)Rendered 41216 of 250000 pixels (16%)Rendered 42240 of 250000 pixels (16%)Rendered 43264 of 250000 pixels (17%)Rendered 44288 of 250000 pixels (17%)Rendered 45312 of 250000 pixels (18%)Rendered 46336 of 250000 pixels (18%)Rendered 47360 of 250000 pixels (18%)Rendered 48384 of 250000 pixels (19%)Rendered 49408 of 250000 pixels (19%)Rendered 50432 of 250000 pixels (20%)Rendered 51456 of 250000 pixels (20%)Rendered 52480 of 250000 pixels (20%)Rendered 53120 of 250000 pixels (21%)Rendered 54144 of 250000 pixels (21%)Rendered 55168 of 250000 pixels (22%)Rendered 56192 of 250000 pixels (22%)Rendered 57216 of 250000 pixels (22%)Rendered 58240 of 250000 pixels (23%)Rendered 59264 of 250000 pixels (23%)Rendered 60288 of 250000 pixels (24%)Rendered 61312 of 250000 pixels (24%)Rendered 62336 of 250000 pixels (24%)Rendered 63360 of 250000 pixels (25%)Rendered 64384 of 250000 pixels (25%)Rendered 65408 of 250000 pixels (26%)Rendered 66432 of 250000 pixels (26%)Rendered 67456 of 250000 pixels (26%)Rendered 68480 of 250000 pixels (27%)Rendered 69120 of 250000 pixels (27%)Rendered 70144 of 250000 pixels (28%)Rendered 71168 of 250000 pixels (28%)Rendered 72192 of 250000 pixels (28%)Rendered 73216 of 250000 pixels (29%)Rendered 74240 of 250000 pixels (29%)Rendered 75264 of 250000 pixels (30%)Rendered 76288 of 250000 pixels (30%)Rendered 77312 of 250000 pixels (30%)Rendered 78336 of 250000 pixels (31%)Rendered 79360 of 250000 pixels (31%)Rendered 80384 of 250000 pixels (32%)Rendered 81408 of 250000 pixels (32%)Rendered 82432 of 250000 pixels (32%)Rendered 83456 of 250000 pixels (33%)Rendered 84480 of 250000 pixels (33%)Rendered 85504 of 250000 pixels (34%)Rendered 86528 of 250000 pixels (34%)Rendered 87552 of 250000 pixels (35%)Rendered 88576 of 250000 pixels (35%)Rendered 89600 of 250000 pixels (35%)Rendered 90624 of 250000 pixels (36%)Rendered 91264 of 250000 pixels (36%)Rendered 92288 of 250000 pixels (36%)Rendered 93312 of 250000 pixels (37%)Rendered 94336 of 250000 pixels (37%)Rendered 95360 of 250000 pixels (38%)Rendered 96384 of 250000 pixels (38%)Rendered 97408 of 250000 pixels (38%)Rendered 98432 of 250000 pixels (39%)Rendered 99456 of 250000 pixels (39%)Rendered 100480 of 250000 pixels (40%)Rendered 101504 of 250000 pixels (40%)Rendered 102528 of 250000 pixels (41%)Rendered 103552 of 250000 pixels (41%)Rendered 104576 of 250000 pixels (41%)Rendered 105216 of 250000 pixels (42%)Rendered 106240 of 250000 pixels (42%)Rendered 107264 of 250000 pixels (42%)Rendered 108288 of 250000 pixels (43%)Rendered 109312 of 250000 pixels (43%)Rendered 110336 of 250000 pixels (44%)Rendered 111360 of 250000 pixels (44%)Rendered 112384 of 250000 pixels (44%)Rendered 113024 of 250000 pixels (45%)Rendered 114048 of 250000 pixels (45%)Rendered 115072 of 250000 pixels (46%)Rendered 116096 of 250000 pixels (46%)Rendered 117120 of 250000 pixels (46%)Rendered 118144 of 250000 pixels (47%)Rendered 119168 of 250000 pixels (47%)Rendered 120192 of 250000 pixels (48%)Rendered 121216 of 250000 pixels (48%)Rendered 122240 of 250000 pixels (48%)Rendered 123264 of 250000 pixels (49%)Rendered 124288 of 250000 pixels (49%)Rendered 125312 of 250000 pixels (50%)Rendered 126336 of 250000 pixels (50%)Rendered 127360 of 250000 pixels (50%)Rendered 128384 of 250000 pixels (51%)Rendered 129408 of 250000 pixels (51%)Rendered 130432 of 250000 pixels (52%)Rendered 131456 of 250000 pixels (52%)Rendered 132096 of 250000 pixels (52%)Rendered 133120 of 250000 pixels (53%)Rendered 134144 of 250000 pixels (53%)Rendered 135168 of 250000 pixels (54%)Rendered 136192 of 250000 pixels (54%)Rendered 137216 of 250000 pixels (54%)Rendered 138240 of 250000 pixels (55%)Rendered 139264 of 250000 pixels (55%)Rendered 140288 of 250000 pixels (56%)Rendered 141312 of 250000 pixels (56%)Rendered 142336 of 250000 pixels (56%)Rendered 143360 of 250000 pixels (57%)Rendered 144384 of 250000 pixels (57%)Rendered 145408 of 250000 pixels (58%)Rendered 146432 of 250000 pixels (58%)Rendered 147456 of 250000 pixels (58%)Rendered 148480 of 250000 pixels (59%)Rendered 149504 of 250000 pixels (59%)Rendered 150528 of 250000 pixels (60%)Rendered 151168 of 250000 pixels (60%)Rendered 152192 of 250000 pixels (60%)Rendered 153216 of 250000 pixels (61%)Rendered 154240 of 250000 pixels (61%)Rendered 155264 of 250000 pixels (62%)Rendered 156288 of 250000 pixels (62%)Rendered 157312 of 250000 pixels (62%)Rendered 158336 of 250000 pixels (63%)Rendered 159360 of 250000 pixels (63%)Rendered 160384 of 250000 pixels (64%)Rendered 161408 of 250000 pixels (64%)Rendered 162432 of 250000 pixels (64%)Rendered 163456 of 250000 pixels (65%)Rendered 164480 of 250000 pixels (65%)Rendered 165504 of 250000 pixels (66%)Rendered 166528 of 250000 pixels (66%)Rendered 167552 of 250000 pixels (67%)Rendered 168192 of 250000 pixels (67%)Rendered 169216 of 250000 pixels (67%)Rendered 170240 of 250000 pixels (68%)Rendered 171264 of 250000 pixels (68%)Rendered 172288 of 250000 pixels (68%)Rendered 173312 of 250000 pixels (69%)Rendered 174336 of 250000 pixels (69%)Rendered 175360 of 250000 pixels (70%)Rendered 176384 of 250000 pixels (70%)Rendered 177408 of 250000 pixels (70%)Rendered 178432 of 250000 pixels (71%)Rendered 179456 of 250000 pixels (71%)Rendered 180480 of 250000 pixels (72%)Rendered 181120 of 250000 pixels (72%)Rendered 182144 of 250000 pixels (72%)Rendered 183168 of 250000 pixels (73%)Rendered 184192 of 250000 pixels (73%)Rendered 185216 of 250000 pixels (74%)Rendered 186240 of 250000 pixels (74%)Rendered 187264 of 250000 pixels (74%)Rendered 188288 of 250000 pixels (75%)Rendered 189312 of 250000 pixels (75%)Rendered 190336 of 250000 pixels (76%)Rendered 190976 of 250000 pixels (76%)Rendered 192000 of 250000 pixels (76%)Rendered 193024 of 250000 pixels (77%)Rendered 194048 of 250000 pixels (77%)Rendered 195072 of 250000 pixels (78%)Rendered 196096 of 250000 pixels (78%)Rendered 197120 of 250000 pixels (78%)Rendered 198144 of 250000 pixels (79%)Rendered 199168 of 250000 pixels (79%)Rendered 200192 of 250000 pixels (80%)Rendered 201216 of 250000 pixels (80%)Rendered 202240 of 250000 pixels (80%)Rendered 203264 of 250000 pixels (81%)Rendered 204288 of 250000 pixels (81%)Rendered 204928 of 250000 pixels (81%)Rendered 205952 of 250000 pixels (82%)Rendered 206976 of 250000 pixels (82%)Rendered 208000 of 250000 pixels (83%)Rendered 209024 of 250000 pixels (83%)Rendered 210048 of 250000 pixels (84%)Rendered 211072 of 250000 pixels (84%)Rendered 212096 of 250000 pixels (84%)Rendered 213120 of 250000 pixels (85%)Rendered 214144 of 250000 pixels (85%)Rendered 215168 of 250000 pixels (86%)Rendered 216192 of 250000 pixels (86%)Rendered 217216 of 250000 pixels (86%)Rendered 218240 of 250000 pixels (87%)Rendered 219264 of 250000 pixels (87%)Rendered 220288 of 250000 pixels (88%)Rendered 221312 of 250000 pixels (88%)Rendered 222336 of 250000 pixels (88%)Rendered 222976 of 250000 pixels (89%)Rendered 224000 of 250000 pixels (89%)Rendered 225024 of 250000 pixels (90%)Rendered 226048 of 250000 pixels (90%)Rendered 227072 of 250000 pixels (90%)Rendered 228096 of 250000 pixels (91%)Rendered 229120 of 250000 pixels (91%)Rendered 230144 of 250000 pixels (92%)Rendered 231168 of 250000 pixels (92%)Rendered 232192 of 250000 pixels (92%)Rendered 233216 of 250000 pixels (93%)Rendered 234240 of 250000 pixels (93%)Rendered 235264 of 250000 pixels (94%)Rendered 236288 of 250000 pixels (94%)Rendered 236928 of 250000 pixels (94%)Rendered 237952 of 250000 pixels (95%)Rendered 238976 of 250000 pixels (95%)Rendered 240000 of 250000 pixels (96%)Rendered 240640 of 250000 pixels (96%)Rendered 241280 of 250000 pixels (96%)Rendered 241920 of 250000 pixels (96%)Rendered 242560 of 250000 pixels (97%)Rendered 243200 of 250000 pixels (97%)Rendered 243840 of 250000 pixels (97%)Rendered 244480 of 250000 pixels (97%)Rendered 245120 of 250000 pixels (98%)Rendered 245760 of 250000 pixels (98%)Rendered 246400 of 250000 pixels (98%)Rendered 247040 of 250000 pixels (98%)Rendered 247680 of 250000 pixels (99%)Rendered 248320 of 250000 pixels (99%)Rendered 248960 of 250000 pixels (99%)Rendered 249600 of 250000 pixels (99%)Rendered 250000 of 250000 pixels (100%)
-----------------------------------------------------------------------------
-Render Statistics
-Image Resolution 500 x 500
-----------------------------------------------------------------------------
-Pixels:           250000   Samples:               0   Smpls/Pxl: 0.00
-Rays:             520560   Saved:                 0   Max Level: 3/5
-----------------------------------------------------------------------------
-Ray->Shape Intersection          Tests       Succeeded  Percentage
-----------------------------------------------------------------------------
-Mesh                           9847902         3808462     38.67
-Plane                         34348119         1827172      5.32
-Bounding Box                1411898854       313683471     22.22
-----------------------------------------------------------------------------
-Shadow Ray Tests:          10928813   Succeeded:               4088263
-Reflected Rays:              113581
-Refracted Rays:              156979
-----------------------------------------------------------------------------
-----------------------------------------------------------------------------
-Render Time:
-  Photon Time:      No photons
-  Radiosity Time:   No radiosity
-  Trace Time:       0 hours  0 minutes 22 seconds (22.422 seconds)
-              using 4 thread(s) with 89.383 CPU-seconds total
-POV-Ray finished
-
