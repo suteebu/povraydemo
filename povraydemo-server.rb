@@ -109,90 +109,6 @@ else
   puts "Using S3 bucket #{b.name} in #{b.location_constraint}."
 end
 
-# DEPLOY SPOT INSTANCES AND GIVE THEM BUCKET NAME
-
-
-=begin
-puts "\n"
-puts "********** DEPLOYING SPOT INSTANCES **********"
-
-################################
-
-require 'net/http'
-gem 'net-ssh', '~> 2.1.4'
-require 'net/ssh'
-
-instance = key_pair = group = nil
-
-begin
-  ec2 = AWS::EC2.new
-
-  # optionally switch to a non-default region
-  if region = ARGV.first
-    region = ec2.regions[region]
-    unless region.exists?
-      puts "Requested region '#{region.name}' does not exist.  Valid regions:"
-      puts "  " + ec2.regions.map(&:name).join("\n  ")
-      exit 1
-    end
-
-    # a region acts like the main EC2 interface
-    ec2 = region
-  end
-
-  # find the latest 32-bit EBS Amazon Linux AMI
-  image = AWS.memoize do
-    amazon_linux = ec2.images.with_owner("amazon").
-      filter("root-device-type", "ebs").
-      filter("architecture", "i386").
-      filter("name", "amzn-ami*")
-
-    # this only makes one request due to memoization
-    amazon_linux.to_a.sort_by(&:name).last
-  end
-  puts "Using AMI: #{image.id}"
-
-  # generate a key pair
-  key_pair = ec2.key_pairs.create("ruby-sample-#{Time.now.to_i}")
-  puts "Generated keypair #{key_pair.name}, fingerprint: #{key_pair.fingerprint}"
-
-  # open SSH access
-  group = ec2.security_groups.create("ruby-sample-#{Time.now.to_i}")
-  group.authorize_ingress(:tcp, 22, "0.0.0.0/0")
-  puts "Using security group: #{group.name}"
-
-  # launch the instance
-  instance = image.run_instance(:key_pair => key_pair,
-                                :security_groups => group)
-  sleep 1 until instance.status != :pending
-  puts "Launched instance #{instance.id}, status: #{instance.status}"
-
-  exit 1 unless instance.status == :running
-
-  begin
-    Net::SSH.start(instance.ip_address, "ec2-user",
-                   :key_data => [key_pair.private_key]) do |ssh|
-      puts "Running 'uname -a' on the instance yields:"
-      puts ssh.exec!("uname -a")
-    end
-  rescue SystemCallError, Timeout::Error => e
-    # port 22 might not be available immediately after the instance finishes launching
-    sleep 1
-    retry
-  end
-
-ensure
-  # clean up
-  [instance,
-   group,
-   key_pair].compact.each(&:delete)
-end
-
-###############################
-=end
-
-
-
 # CHECK QUEUE LENGTH PERIODICALLY AND SEE WHAT SPOT INSTANCES HAVE CHECKED IN FOR DUTY
 
 count_empty = 0
@@ -205,10 +121,34 @@ while count_empty < 3 do
   sleep(5)
 end
 
+puts "(press any key to download frames, render movie, and upload movie)"
+$stdin.getc
 
+# DOWNLOAD ALL MOVIE FRAMES
+# This should be its own file
 
+b.objects.each do |obj|
+  s3_filename = obj.key
+  if s3_filename.scan(/\w*.(\w*)/)[0][0] == "png"
+    puts "Downloading #{s3_filename}..."
+    File.open(s3_filename, 'w') do |file|
+      obj.read do |chunk|
+        file.write(chunk)
+      end
+    end
+  end
+end
 
+puts "Rendering movie..."
+movie_file_name = "JuliaIsleMovie.mp4"
+`ffmpeg -qscale 5 -r 24 -b 64k -i frame%d.png #{movie_file_name}`
+
+puts "Uploading #{movie_file_name} to S3..."
+# Upload Movie file
+o = b.objects[movie_file_name]
+o.write(:file => movie_file_name)
+
+puts "To see the movie, visit this URL:"
+puts o.url_for(:read)
 
 puts "********** DONE! **********"
-
-puts "********** RUN povraydemo-client.rb **********"
