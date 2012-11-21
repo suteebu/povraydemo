@@ -54,12 +54,15 @@ loc_y_0 =  2.5
 loc_z_0 = -1.0
 
 # ending position
-loc_x_f =  1.5
-loc_y_f =  0.25
-loc_z_f = -1.0
+#loc_x_f =  1.5
+#loc_y_f =  0.25
+#loc_z_f = -1.0
+loc_x_f =  0.0018328
+loc_y_f =  0.2501
+loc_z_f =  0.002515
 
 # iterate through frames
-duration   = 0.1 # seconds
+duration   = 10 # seconds
 fps        = 30
 num_frames = (duration * fps).ceil #returns Integer ceiling
 
@@ -70,10 +73,16 @@ loc_x = Array.new
 loc_y = Array.new
 loc_z = Array.new
 
-for f in 0..num_frames
-  loc_x[f] = loc_x_0 + (loc_x_f - loc_x_0) * f / num_frames
-  loc_y[f] = loc_y_0 + (loc_y_f - loc_y_0) * f / num_frames
-  loc_z[f] = loc_z_0 + (loc_z_f - loc_z_0) * f / num_frames
+for f in 1..num_frames
+  #loc_x[f] = loc_x_0 + (loc_x_f - loc_x_0) * f / num_frames
+  #loc_y[f] = loc_y_0 + (loc_y_f - loc_y_0) * f / num_frames
+  #loc_z[f] = loc_z_0 + (loc_z_f - loc_z_0) * f / num_frames
+
+  final_fraction = Float(0.001)
+  scale_factor = final_fraction**(1.0/(num_frames-1))
+  loc_x[f] = loc_x_0 + (loc_x_f - loc_x_0) * (1-scale_factor**(f-1))
+  loc_y[f] = loc_y_0 + (loc_y_f - loc_y_0) * (1-scale_factor**(f-1))
+  loc_z[f] = loc_z_0 + (loc_z_f - loc_z_0) * (1-scale_factor**(f-1))
 
   location_text = "location <#{loc_x[f]},#{loc_y[f]},#{loc_z[f]}>"
 
