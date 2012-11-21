@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e -x
-EMAIL=suteebu@gmail.com
+EMAIL=stephee@amazon.com
 
 # Get some information about the running instance
 instance_id=$(wget -qO- instance-data/latest/meta-data/instance-id)
