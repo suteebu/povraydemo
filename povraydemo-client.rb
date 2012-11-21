@@ -6,6 +6,7 @@ require 'yaml'
 require 'aws-sdk'
 require 'pp'
 require 'trollop'
+require 'net/http'
 
 # Run me with no args
 
@@ -114,3 +115,15 @@ puts "********** DONE! **********"
 
 # remove my checkin_file from s3
 o_checkin_file.delete
+
+=begin
+#this should probably be in a separate termiante instance ruby script
+http = Net::HTTP.new('169.254.169.254')
+http.start
+response = http.request(Net::HTTP::Get.new('/latest/meta-data/instance-id'))
+http.finish
+ 
+instance_id = response.body
+
+#terminate instance here
+=end
