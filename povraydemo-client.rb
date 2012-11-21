@@ -72,8 +72,8 @@ queue.poll(:idle_timeout => 10) {|msg|
   pic_file_name = frame_name + ".png"
   log_file_name = frame_name + ".log"
 
-  pic_height = 500
-  pic_width  = 500
+  pic_height = 1000
+  pic_width  = 1000
 
   File.open(pov_file_name, 'w') {|f| f.write(msg.body) }
   puts "Rendering #{pov_file_name}... (this step may take several minutes)"
