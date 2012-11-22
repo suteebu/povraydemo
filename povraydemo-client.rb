@@ -99,8 +99,6 @@ queue.poll(:idle_timeout => 10) {|msg|
 
   File.open(pov_file_name, 'w') {|f| f.write(msg.body) }
   puts "Rendering #{pov_file_name}... (this step may take several minutes)"
-
-=begin
   `povray +O#{pic_file_name} -h#{pic_height} -w#{pic_width} #{pov_file_name} 2> #{log_file_name}`
 
   puts "Uploading #{pic_file_name} to s3..."
@@ -112,7 +110,6 @@ queue.poll(:idle_timeout => 10) {|msg|
   puts "*** Uploaded #{pic_file_name} to: #{o.public_url}"
   # generate a presigned URL
   puts "*** Use this URL to download the file: #{o.url_for(:read)}"
-=end
 }
 
 puts "********** DONE! (or didn't see a new SQS item for 10 seconds) **********"
