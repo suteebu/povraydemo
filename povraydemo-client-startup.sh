@@ -18,4 +18,4 @@ SSH into: ubuntu@$public_hostname
 EOF
 
 #cd /home/ubuntu/povraydemo
-/home/ubuntu/.rvm/rubies/ruby-1.9.3-p327/bin/ruby /home/ubuntu/povraydemo/povraydemo-client.rb
+/home/ubuntu/.rvm/rubies/ruby-1.9.3-p327/bin/ruby /home/ubuntu/povraydemo/povraydemo-client.rb -s true

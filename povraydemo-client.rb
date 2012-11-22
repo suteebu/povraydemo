@@ -13,7 +13,7 @@ require 'net/http'
 @opts = Trollop::options do
   opt :width, "Width of POV image", :default=>1000
   opt :height, "Height of POV image", :default=>1000
-  opt :cleanup_files, "Clean-up .pov, .png, and .log files after completion", :default=>true
+  opt :cleanup_files, "Clean-up .pov, .png, and .log files after completion", :default=>false
   opt :self_terminate, "Self-terminate the EC2 Instance hosting this script", :default=>false
 end
 puts @opts.inspect
@@ -149,7 +149,8 @@ if @opts[:self_terminate] then
 
     #terminate instance here  
     #alternatively: `shutdown -h now`
-    ec2 = AWS::EC2.new()
+    # TO DO: we should get this region from the http call above
+    ec2 = AWS::EC2.new(:ec2_endpoint => "ec2.us-west-2.amazonaws.com")
     instance = ec2.instances[instance_id]
     instance.terminate()
 
