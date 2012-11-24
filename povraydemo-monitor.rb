@@ -41,7 +41,8 @@ AWS.config(config)
 
 # ACCESS JULIA ISLE QUEUE
 sqs = AWS::SQS.new
-queue = sqs.queues.create("JuliaIsleQueue")
+#queue = sqs.queues.create("JuliaIsleQueue")
+queue = sqs.queues.named("JuliaIsleQueue")
 puts "Opened JuliaIsleQueue"
 pp sqs.queues.collect(&:url)
 
