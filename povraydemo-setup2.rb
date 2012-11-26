@@ -41,7 +41,7 @@ AWS.config(config)
 
 # CREATE JULIA ISLE QUEUE
 sqs = AWS::SQS.new
-queue = sqs.queues.create("JuliaIsleQueue", :visibility_timeout=>300)
+queue = sqs.queues.create("JuliaIsleQueue", :visibility_timeout=>600)
 puts "Created JuliaIsleQueue"
 pp sqs.queues.collect(&:url)
 
@@ -51,12 +51,22 @@ pp sqs.queues.collect(&:url)
 ###########
 
 # spline control points
-cx = [-1.5,  2.0, 0.5,  0.0018328]
-cy = [ 2.5, -3.0,  2.5,  0.2501]
-cz = [-1.0,  0.25,  0.0,  0.002515]
+#cx = [-1.5,  2.0, 0.5,  0.0018328]
+#cy = [ 2.5, -3.0,  2.5,  0.2501]
+#cz = [-1.0,  0.25,  0.0,  0.002515]
+
+# to the center
+#cx = [-1.5,  2.5, 0.5,  0.0018328]
+#cy = [ 2.5, -4.2,  5,  0.2501]
+#cz = [-1.0,  0.25,  0.75,  0.002515]
+
+# to an edge point
+cx = [-1.5,  2.5,  0.5,  -0.046018]
+cy = [ 2.5, -4.2,  5,     0.250001]
+cz = [-1.0,  0.15, 0.75,  0.300010]
 
 # iterate through frames
-duration   = 10 # seconds
+duration   = 20 # seconds
 fps        = 30
 num_frames = (duration * fps).ceil #returns Integer ceiling
 
@@ -75,7 +85,7 @@ for f in 0..num_frames
     t = Float(f)/num_frames
   elsif spacing == "exponential" then
     fration = Float(f)/num_frames
-    final_fraction = Float(0.001)
+    final_fraction = Float(0.0001)
     scale_factor = final_fraction**(1.0/(num_frames-1))
     t = 1-scale_factor**(f-1)
   end
@@ -93,9 +103,11 @@ loc_x = Array.new
 loc_y = Array.new
 loc_z = Array.new
 
-for f in 0..num_frames-1
+for f in 1..num_frames
   location_text = "<#{px[f]},#{py[f]},#{pz[f]}>"
-  lookat_text =   "<#{px[f+1]},#{py[f+1]},#{pz[f+1]}>"
+#  lookat_text =   "<#{px[f]-px[f-1]},#{py[f]-py[f-1]},#{pz[f]-pz[f-1]}>"
+#  lookat_text = "<0.0018328,0.2501,0.002515>"
+  lookat_text = "<-0.046018,0.25,0.30001>"
 
   num_zeros = "#{num_frames}".length - "#{f}".length
   frame_num_text = "0"*num_zeros + "#{f}"

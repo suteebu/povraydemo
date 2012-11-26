@@ -208,8 +208,8 @@ mesh2 {
 camera {
 	up <0,1,0>
 	right <1,0,0>
-	location <-1.5*2, 2.5*3, -1.0*4>
-	look_at <-0.1,0.15,0>
+	location <0, 2.5*3, 0>
+	look_at <0,0,0>
 	angle 20
 }
 light_source {

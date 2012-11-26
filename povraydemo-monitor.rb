@@ -101,4 +101,11 @@ o.write(:file => movie_file_name)
 puts "To see the movie, visit this URL:"
 puts o.url_for(:read)
 
+puts "Press 'D' to delete to delete all frame*.png files; press any other key to exit."
+c = $stdin.getc
+
+if c == 'D' then
+  `rm -v frame*.png`
+end
+
 puts "********** DONE! **********"
